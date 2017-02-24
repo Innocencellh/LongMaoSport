@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_near"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_head"
+                android:background="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/title_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="日常任务"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/find_text_size" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_image_a"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@mipmap/icon_rask_online" />
+
+                <TextView
+                    android:id="@+id/task_online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/task_image_a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/task_image_a"
+                    android:text="日常在线"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/task_image_a"
+                    android:layout_below="@+id/task_online"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/task_image_a"
+                    android:gravity="bottom"
+                    android:text="直播间观看1分钟,获得5龙猫豆奖励"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/task_online"
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:text="领取"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_image_b"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@mipmap/icon_rask_online" />
+
+                <TextView
+                    android:id="@+id/task_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/task_image_b"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/task_image_b"
+                    android:text="每日充值"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/task_image_b"
+                    android:layout_below="@+id/task_pay"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/task_image_b"
+                    android:gravity="bottom"
+                    android:text="每日充值龙猫币，获得100龙猫豆奖励"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/task_pay"
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:text="领取"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_image_c"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@mipmap/icon_rask_online" />
+
+                <TextView
+                    android:id="@+id/task_present"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/task_image_c"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/task_image_c"
+                    android:text="每日送礼"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/task_image_c"
+                    android:layout_below="@+id/task_present"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/task_image_c"
+                    android:gravity="bottom"
+                    android:text="送礼累计达到50龙猫币，获得50龙猫豆奖励"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/task_present"
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:text="领取"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_image_d"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@mipmap/icon_rask_online" />
+
+                <TextView
+                    android:id="@+id/task_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/task_image_d"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/task_image_d"
+                    android:text="每日竞猜"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/task_image_d"
+                    android:layout_below="@+id/task_play"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/task_image_d"
+                    android:gravity="bottom"
+                    android:text="竞猜成功3次，获得50龙猫豆奖励"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/task_play"
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:text="领取"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_image_e"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@mipmap/icon_rask_online" />
+
+                <TextView
+                    android:id="@+id/task_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/task_image_e"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/task_image_e"
+                    android:text="每日分享"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/task_image_e"
+                    android:layout_below="@+id/task_share"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/task_image_e"
+                    android:gravity="bottom"
+                    android:text="分享到微信，获得30龙猫豆奖励"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/task_share"
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:text="领取"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_image_f"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@mipmap/icon_rask_online" />
+
+                <TextView
+                    android:id="@+id/task_datum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/task_image_f"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/task_image_f"
+                    android:text="完善资料"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/task_image_f"
+                    android:layout_below="@+id/task_datum"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/task_image_f"
+                    android:gravity="bottom"
+                    android:text="上传高清头像，获得20龙猫豆奖励"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/task_datum"
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:text="领取"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_head"
+                android:background="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/title_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="累计任务"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/find_text_size" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_image_g"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@mipmap/icon_rask_online" />
+
+                <TextView
+                    android:id="@+id/task_datumall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/task_image_g"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/task_image_g"
+                    android:text="累计充值"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/task_image_g"
+                    android:layout_below="@+id/task_datumall"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/task_image_g"
+                    android:gravity="bottom"
+                    android:text="累计充值50元，获得500龙猫豆奖励"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/task_datumall"
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:text="未完成"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/back" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

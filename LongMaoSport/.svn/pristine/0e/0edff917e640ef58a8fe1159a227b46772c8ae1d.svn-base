@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 竞猜说明</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body style="background:#fff">
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    龙猫直播竞猜说明
+</div>
+<div class="switcha">
+    <a href="#gprocess" class="active">竞猜功能说明</a>
+    <a href="#PK">"PK"功能说明</a>
+</div>
+<div class="protocol instruct">
+    <h2 class="tline" id="gprocess">竞猜功能流程</h2>
+    <img src="images/gprocess.png"><br><br>
+    <h3>主播流程</h3>
+    <p><b>1. 开启竞猜</b> 开启直播后，直播页面右上方出现“龙猫”图标，点击“龙猫”图标。</p>
+    <p><b>2. 添加竞猜话题。</b>点击“+”,添加竞猜话题。</p>
+    <p><b>3. 设置选项、封盘时间、投注池上限</b>（至少10000龙猫豆，赔率1:1）   主播开启竞猜，需押入与投注池等额的龙猫币。投注池上限，不得高于主播所持龙猫豆。开启竞猜后，可在“竞猜话题”中查看下注情况，但不可修改题目或选项。</p>
+    <p><b>4. 封盘</b> 若封盘时间内，投注池满，则系统自动封盘。若封盘时间到，投注池未满，系统亦自动封盘。另外，封盘时间内，主播也可根据直播间情况，手动封盘。</p>
+    <p><b>5. 结束竞猜</b> 当竞猜话题结果产生，主播应立即结束该竞猜，并选择正确选项。系统将根据主播的选择判定最终结果并分配本局龙猫豆。</p>
+	<h3>用户参与竞猜流程</h3>
+    <p><b>1. 参与竞猜。</b>主播开启竞猜后，用户点击“龙猫”图标，选择竞猜话题，参与竞猜。</p>
+    <p><b>2. 投注。</b>用户在投注界面，选择投注选项，并设置投注的龙猫豆数量（最低押注金额为100龙猫豆）。投注后，不可修改投注选项及数量。</p>
+    <p><b>3. 结算。</b>结果产生后，判定为错误选项的用户将失去投注资金，判定为正确选项的用户将获得本金和奖励的龙猫豆。龙猫豆可以兑换成龙猫币，也可以在兑换中心兑换礼物。若主播错误结算竞猜结果，用户可以举报该直播，核实后,将赔偿并返还用户相应的龙猫豆，情节严重者取消主播竞猜权限。</p><br>
+    <br>
+    <h2 class="tline" id="PK">“PK”功能流程</h2>
+    <img src="images/pkprocess.png"><br><br>
+    <h3>用户PK流程</h3>
+    <p><b>1. 开启竞猜</b> 点击直播界面下方“PK”按钮。</p>
+    <p><b>2. 设置竞猜话题、答案选项、封盘时间、投注池上限</b>（至少押入10000龙猫豆，赔率1:1）。2、PK用户开启竞猜，需押入与投注池等额的龙猫币。投注池上限，不得高于PK用户所持龙猫豆。</p>
+    <p><b>3. 提交竞猜</b> 当客服同意竞猜话题后，立即开启竞猜。用户可在“竞猜”中查看下注情况，但不可修改题目或选项。</p>
+	<h3>主播流程</h3>
+    <p><b>1. 封盘</b> 竞猜开启后，若封盘时间内，投注池满，则系统自动封盘。若封盘时间到，投注池未满，系统亦自动封盘。另外，封盘时间内，主播也可根据直播间情况，手动封盘。</p>
+    <p><b>2. 结束竞猜</b>当竞猜话题结果产生，主播应立即结束该竞猜，并选择正确选项。系统将根据主播的选择判定最终结果并分配本局龙猫豆。</p>
+	<h3>用户参与竞猜流程</h3>
+    <p><b>1. 参与竞猜。</b>主播开启竞猜后，用户点击“龙猫”图标，选择竞猜话题，参与竞猜。</p>
+    <p><b>2. 投注。</b>用户在投注界面，选择投注选项，并设置投注的龙猫豆数量（最低押注金额为100龙猫豆）。投注后，不可修改投注选项及数量。</p>
+    <p><b>3. 结算。</b>结果产生后，判定为错误选项的用户将失去投注资金，判定为正确选项的用户将获得本金和奖励的龙猫豆。龙猫豆可以兑换成龙猫币，也可以在兑换中心兑换礼物。若主播错误结算竞猜结果，用户可以举报该直播，核实后，将赔偿并返还用户相应的龙猫豆，情节严重者取消主播竞猜权限。</p><br>
+    <p>请用户通过官方渠道购买龙猫豆，龙猫直播官方严厉打击一切通过线下交易方式买卖龙猫豆的行为。一经发现违规交易，立即封号。</p>
+    <p><b>本竞猜最终解释权归龙猫直播所有。</b></p><br>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $(".switcha a").click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+            var link = $(this).attr("href");
+            var a = $(link).offset().top-190;
+            $("html,body").animate({scrollTop:a}, 'slow');
+        })
+    })
+</script>
+</body>
+</html>

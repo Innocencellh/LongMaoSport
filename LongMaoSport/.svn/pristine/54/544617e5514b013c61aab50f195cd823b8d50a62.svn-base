@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/setting_scollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/setting_set"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/setting_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/h6"
+                    android:text="收货地址" />
+
+                <ImageView
+                    android:id="@+id/setting_a"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_ten"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/setting_blacklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="黑名单"
+                    android:textSize="@dimen/h6" />
+
+                <ImageView
+                    android:id="@+id/setting_b"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_ten"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/setting_clearcache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="清理缓存"
+                    android:textSize="@dimen/h6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_toLeftOf="@+id/setting_c"
+                    android:text="38M"
+                    android:textSize="@dimen/h6" />
+
+                <ImageView
+                    android:id="@+id/setting_c"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line"
+                android:visibility="gone"
+                android:background="@color/back" />
+
+         <!--   <RelativeLayout
+                android:id="@+id/setting_treaty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="社区公约"
+                    android:textSize="@dimen/h6" />
+
+                <ImageView
+                    android:id="@+id/setting_d"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/setting_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="隐私政策"
+                    android:textSize="@dimen/h6" />
+
+                <ImageView
+                    android:id="@+id/setting_e"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>-->
+            <RelativeLayout
+                android:id="@+id/setting_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="清除缓存"
+                    android:textSize="@dimen/h6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/person_nine"
+                    android:layout_toLeftOf="@+id/setting_e"
+                    android:text="0 M"
+                    android:textColor="@color/light_gray_color"
+                    android:textSize="@dimen/h5" />
+
+                <ImageView
+                    android:id="@+id/setting_e"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/setting_provision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="反馈与帮助"
+                    android:textSize="@dimen/h6" />
+
+                <ImageView
+                    android:id="@+id/setting_f"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/setting_callus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/setting_fiveteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关于我们"
+                    android:textSize="@dimen/h6" />
+
+                <ImageView
+                    android:id="@+id/setting_g"
+                    android:layout_width="@dimen/person_seven"
+                    android:layout_height="@dimen/person_eleven"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/right_arrow" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/setting_tt"
+                android:layout_marginTop="@dimen/setting_fivety"
+                android:paddingLeft="@dimen/setting_ten"
+                android:paddingRight="@dimen/setting_ten">
+
+                <Button
+                    android:id="@+id/setting_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_select_bg"
+                    android:text="退出登录"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h8" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/setting_eight"
+        android:text="版本 1.5.0"
+        android:textSize="@dimen/settting_fourteen" />
+
+</RelativeLayout>

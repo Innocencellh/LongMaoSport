@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white">
+        <EditText
+            android:id="@+id/zhifubao_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:hint="支付宝账号（手机号/邮箱）"
+            android:gravity="left|center"
+            android:textColor="@color/person_tips_color"
+            android:textColorHint="#878787"
+            android:paddingLeft="4dp"
+            android:textSize="16sp"
+            android:background="@drawable/btn_bind_gray_shape"/>
+        <EditText
+            android:id="@+id/real_name"
+            android:layout_below="@id/zhifubao_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:hint="真实姓名"
+            android:gravity="left|center"
+            android:textColorHint="#878787"
+            android:paddingLeft="4dp"
+            android:textSize="16sp"
+            android:background="@drawable/btn_bind_gray_shape" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_now_bind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_select_bg"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+        android:text="立即绑定"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

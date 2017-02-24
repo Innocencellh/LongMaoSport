@@ -1,0 +1,409 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="tencent_tls_ui_activity_horizontal_margin">16dp</dimen>
+    <dimen name="tencent_tls_ui_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tencent_tls_ui_edittext_height">50dp</dimen>
+    <dimen name="tencent_tls_ui_edittext_leftpadding">20dp</dimen>
+    <dimen name="tencent_tls_ui_edittext_rightpadding">20dp</dimen>
+    <dimen name="tencent_tls_ui_edittext_margin">15dp</dimen>
+
+    <dimen name="tencent_tls_ui_titleBarHeight">60dp</dimen>
+    <dimen name="tencent_tls_ui_titleFontSize">21dp</dimen>
+
+    <dimen name="tencent_tls_ui_buttonFontSize">16dp</dimen>
+
+    <!-- GENERAL -->
+    <dimen name="default_stroke_width">7dp</dimen>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+
+    <!--tool-->
+    <dimen name="toolH">2dp</dimen>
+    <dimen name="toolPaddW">15dp</dimen>
+
+    <!--new-->
+    <dimen name="hotTxt">14sp</dimen>
+    <dimen name="newLiveTxt">12sp</dimen>
+    <dimen name="txtPadd">15sp</dimen>
+    <dimen name="marginW">1dp</dimen>
+    <dimen name="spacingL">2dp</dimen>
+    <dimen name="newLivePaddLR">5dp</dimen>
+    <dimen name="newLivePaddTB">10dp</dimen>
+    <dimen name="spacingGridView">4dp</dimen>
+
+
+    <!--near-->
+
+    <!--大小-->
+    <dimen name="h0">8sp</dimen>
+    <!--h1-->
+    <dimen name="h1">9sp</dimen>
+    <!--h2-->
+    <dimen name="h2">10sp</dimen>
+    <!--h3-->
+    <dimen name="h3">11sp</dimen>
+    <!--h4-->
+    <dimen name="h4">12sp</dimen>
+    <!--h5-->
+    <dimen name="h5">13sp</dimen>
+    <!--h6-->
+    <dimen name="h6">14sp</dimen>
+    <!--h7-->
+    <dimen name="h7">15sp</dimen>
+    <!--h8-->
+    <dimen name="h8">16sp</dimen>
+    <!--h9-->
+    <dimen name="h9">17sp</dimen>
+    <!--h10-->
+    <dimen name="h10">18sp</dimen>
+    <!--h11-->
+    <dimen name="h11">19sp</dimen>
+
+    <dimen name="h12">20sp</dimen>
+
+    <!-- 飘星 -->
+    <dimen name="heart_anim_bezier_x_rand">50.0dp</dimen>
+    <dimen name="heart_anim_init_x">50.0dp</dimen>
+    <dimen name="heart_anim_init_y">25.0dp</dimen>
+    <dimen name="heart_anim_length">400.0dp</dimen>
+    <dimen name="heart_anim_length_rand">350.0dp</dimen>
+    <dimen name="heart_anim_x_point_factor">30.0dp</dimen>
+
+    <dimen name="heart_size_height">27.3dp</dimen>
+    <dimen name="heart_size_width">32.5dp</dimen>
+
+    <dimen name="member_heart_layout_bottom_margin">50dp</dimen>
+
+
+    <dimen name="small_area_margin_bottom">110dp</dimen>
+    <dimen name="small_area_margin_top">130dp</dimen>
+    <dimen name="small_area_height">110dp</dimen>
+    <dimen name="small_area_width">60dp</dimen>
+    <dimen name="small_area_marginright">10dp</dimen>
+    <dimen name="small_area_marginbetween">10dp</dimen>
+
+
+    <!-- AVSDK *******************************************************************************************************************************-->
+    <dimen name="qav_title_margin_top">3dp</dimen>
+    <dimen name="qav_title_bar_height">50dp</dimen>
+    <dimen name="video_small_view_width">120dp</dimen>
+    <dimen name="video_small_view_height">160dp</dimen>
+    <dimen name="video_small_view_offsetX">10dp</dimen>
+    <dimen name="video_small_view_offsetY">10dp</dimen>
+    <dimen name="video_small_video_margin">1.5dp</dimen>
+    <dimen name="video_small_mute_margin">5dp</dimen>
+    <dimen name="video_msgbox_offsetX">23dp</dimen>
+    <dimen name="video_msgbox_offsetY">3dp</dimen>
+    <dimen name="video_msgbox_offset">3dp</dimen>
+    <dimen name="video_title_default_width">200dp</dimen>
+
+    <dimen name="video_top_toolbar_margin">45dp</dimen>
+    <dimen name="video_bottom_toolbar_margin">10dp</dimen>
+
+    <!-- 视频聊天中小窗口移动时的阈值 -->
+    <dimen name="video_smallview_move_thresholdX">30dp</dimen>
+    <dimen name="video_smallview_move_thresholdY">40dp</dimen>
+
+    <dimen name="multi_audio_item_faceW">42dp</dimen>
+    <dimen name="multi_audio_item_faceH">42dp</dimen>
+    <dimen name="multi_video_item_faceW">56dp</dimen>
+    <dimen name="multi_video_item_faceH">56dp</dimen>
+    <dimen name="audio_friend_imgW">60dp</dimen>
+    <dimen name="audio_friend_imgH">60dp</dimen>
+    <dimen name="audio_friend_img_border">66.5dp</dimen>
+    <dimen name="audio_friend_border_margin_top">3.25dp</dimen>
+    <dimen name="audio_friend_infoH">191dp</dimen>
+
+    <dimen name="audio_icon_top">25dp</dimen>
+    <dimen name="audio_actionsheet_height">51dp</dimen>
+    <dimen name="video_lock_margin">-15dp</dimen>
+    <dimen name="audio_tip_margin">83dp</dimen>
+
+    <dimen name="qav_bubbble_icon_ratio">16dp</dimen>
+    <dimen name="qav_bubbble_icon_ratio_ex">8dp</dimen>
+
+    <dimen name="qav_multi_video_friend_item_width">60dp</dimen>
+    <dimen name="qav_grid_view_item_width_audio">75dp</dimen>
+    <dimen name="qav_grid_view_item_width_video">64dp</dimen>
+    <dimen name="qav_gaudio_grid_icon_width">50dp</dimen>
+    <dimen name="qav_gaudio_grid_item_width">88dp</dimen>
+    <dimen name="qav_gaudio_speaking_icon_width">10dp</dimen>
+    <dimen name="qav_gaudio_speaking_icon_margin_left">6dp</dimen>
+    <dimen name="qav_gaudio_member_name_margin_top">4dp</dimen>
+    <dimen name="qav_gaudio_speaking_icon_margin_top">5dp</dimen>
+    <dimen name="qav_gaudio_member_name_width">50dp</dimen>
+    <dimen name="qav_gaudio_msg_text_width">95dp</dimen>
+    <dimen name="qav_gaudio_grid_margin_top_nor">60dp</dimen>
+    <dimen name="qav_gaudio_members_holder_margin_top_large">80dp</dimen>
+    <dimen name="qav_gaudio_members_holder_margin_top_small">24dp</dimen>
+    <dimen name="qav_gaudio_grid_net_tip_margin_top_two_line">300dp</dimen>
+    <dimen name="qav_gaudio_grid_net_tip_margin_top_one_line">210dp</dimen>
+    <dimen name="qav_gaudio_members_container_two_line">180dp</dimen>
+    <dimen name="qav_gaudio_members_container_one_line">90dp</dimen>
+    <dimen name="qav_gaudio_members_holder_height_two_line">250dp</dimen>
+    <dimen name="qav_gaudio_members_holder_height_one_line">110dp</dimen>
+    <dimen name="qav_gaudio_grid_margin_top_waiting">40dp</dimen>
+    <dimen name="qav_gaudio_grid_margin_members_top">110dp</dimen>
+    <dimen name="qav_gaudio_grid_margin_top_sig">157dp</dimen>
+    <dimen name="qav_gaudio_grid_height">300dp</dimen>
+    <dimen name="qav_gaudio_indicate_margin_top_two_line">190dp</dimen>
+    <dimen name="qav_gaudio_indicate_margin_top_one_line">100dp</dimen>
+    <dimen name="gaudio_grid_margin">3dp</dimen>
+    <dimen name="gaudio_speaking_width">56dp</dimen>
+    <dimen name="gaudio_speaking_margin">1dp</dimen>
+    <dimen name="gaudio_spacing">15dp</dimen>
+    <dimen name="gaudio_spacing_320">10dp</dimen>
+    <dimen name="gaudio_padding">5dp</dimen>
+    <dimen name="gaudio_dialog_width">270dp</dimen>
+    <dimen name="gaudio_dialog_height_gprs">182dp</dimen>
+    <dimen name="gaudio_dialog_btn_margin_top">47dp</dimen>
+    <dimen name="gaudio_dialog_height">160dp</dimen>
+    <dimen name="gaudio_dialog_textsize">4sp</dimen>
+    <dimen name="gaudio_lock_textsize">5sp</dimen>
+    <dimen name="gaudio_request_video_text_size">15dp</dimen>
+    <dimen name="gaudio_lock_maxwidth">280dp</dimen>
+    <dimen name="multi_video_name_max_width">95dp</dimen>
+    <dimen name="gaudio_name_maxwidth">162dp</dimen>
+    <dimen name="gaudio_tips_name_maxwidth">46dp</dimen>
+    <dimen name="gaudio_list_name_maxwidth">120dp</dimen>
+    <dimen name="gaudio_bigname_maxwidth">156dp</dimen>
+    <dimen name="gaudio_name_maxwidth_dialog">130dp</dimen>
+    <dimen name="gaudio_name_maxwidth_inviter">70dp</dimen>
+    <dimen name="gaudio_name_maxwidth_title">60dp</dimen>
+    <dimen name="qav_double_friend_imgW">95dp</dimen>
+    <dimen name="qav_double_video_friend_imgW">50dp</dimen>
+    <dimen name="qav_notification_icon">64dp</dimen>
+    <dimen name="qav_gaudio_indicator_top">250dp</dimen>
+    <dimen name="qav_bottombar_spacing">7dp</dimen>
+    <dimen name="qav_invite_btn_right_margin">60dp</dimen>
+    <dimen name="qav_bottombar_icon_spacing">1dp</dimen>
+    <dimen name="qav_bottombar_btn_width">60dp</dimen>
+    <dimen name="qav_bottombar_btn_height">46dp</dimen>
+    <dimen name="qav_bottombar_margin">32dp</dimen>
+    <dimen name="qav_bottombar_margin_for_ivr">18dp</dimen>
+    <dimen name="qav_bottomlayer_margin">20dp</dimen>
+    <dimen name="qav_bottombar_normal_margin">16dp</dimen>
+    <dimen name="qav_bottombar_height">170dp</dimen>
+    <dimen name="qav_bottombar_bg_height">255dp</dimen>
+    <dimen name="qav_titlebar_height">25dp</dimen>
+    <dimen name="qav_info_margintop">160dp</dimen>
+    <dimen name="qav_info_margintop_video">60dp</dimen>
+    <dimen name="qav_info_name_margintop">5dp</dimen>
+    <dimen name="qav_ring_margintop">130dp</dimen>
+    <dimen name="qav_tips_margintop">300dp</dimen>
+    <dimen name="qav_info_margintop_ldpi">70dp</dimen>
+    <dimen name="qav_tips_margintop_ldpi">240dp</dimen>
+    <dimen name="qav_accept_video_margin_top">240dp</dimen>
+    <dimen name="qav_waiting_tip_margin_top_two_line">113dp</dimen>
+    <dimen name="qav_waiting_tip_margin_top_one_line">54dp</dimen>
+    <dimen name="qav_waiting_tip_margin_top">40dp</dimen>
+    <dimen name="qav_waiting_tip_margin_top_small">50dp</dimen>
+    <dimen name="qav_net_tip_margin_top">350dp</dimen>
+    <dimen name="qav_net_tip_margin_top_small">210dp</dimen>
+    <dimen name="qav_lock_margin">47dp</dimen>
+    <dimen name="qav_lock_bg_w">266dp</dimen>
+    <dimen name="qav_lock_right_edge">260dp</dimen>
+    <dimen name="qav_lock_left_margin">6dp</dimen>
+    <dimen name="qav_invite_btn_trans">40dp</dimen>
+    <dimen name="qav_bottombar_left_trans">23dp</dimen>
+    <dimen name="qav_bottombar_mid_trans">68dp</dimen>
+    <dimen name="qav_bottombar_right_trans">5dp</dimen>
+    <dimen name="qav_msg_name_max_width">100dp</dimen>
+    <dimen name="qav_msg_text_max_width">226dp</dimen>
+    <dimen name="qav_waiting_text_max_width">128dp</dimen>
+    <dimen name="qav_smartbar_height">48dp</dimen>
+    <dimen name="qav_setting_table_row_height">50dp</dimen>
+
+    <!-- AVSDK *******************************************************************************************************************************-->
+
+    <!-- 所有界面的文字大小 -->
+    <dimen name="all_text_size">18sp</dimen>
+
+    <!-- 发现界面 -->
+    <dimen name="find_text_size">14sp</dimen>
+    <dimen name="find_text_pading">3dp</dimen>
+    <dimen name="drawable_padding_margin">5dp</dimen>
+    <dimen name="find_top">8dp</dimen>
+    <dimen name="green_line_w">3dp</dimen>
+    <dimen name="green_line_h">20dp</dimen>
+    <dimen name="find_title">18sp</dimen>
+    <dimen name="find_title_hei">50dp</dimen>
+    <dimen name="publish_fragment_margin">8dp</dimen>
+    <dimen name="publish_fragment_margin_top">5dp</dimen>
+    <dimen name="publish_fragment_margin_right">5dp</dimen>
+    <dimen name="publish_fragment_padding_left">10dp</dimen>
+    <dimen name="publish_fragment_margin_left">10dp</dimen>
+    <dimen name="publish_fragment_right">5dp</dimen>
+    <dimen name="publish_fragment_margin_height">5dp</dimen>
+    <dimen name="publish_fragment_drawable_top">5dp</dimen>
+
+    <!--发现item-->
+    <dimen name="find_item_btn_w">2dp</dimen>
+    <dimen name="find_item_btn_h">15dp</dimen>
+    <dimen name="item_publish_fragment_height">30dp</dimen>
+    <dimen name="item_publish_fragment_height_iv">150dp</dimen>
+
+    <!-- 登录界面 -->
+
+    <dimen name="login_text_size">15sp</dimen>
+    <dimen name="login_padding">15dp</dimen>
+    <dimen name="login_top_margin">10dp</dimen>
+    <dimen name="login_top_denglu">45dp</dimen>
+    <dimen name="login_left_magin">65dp</dimen>
+    <dimen name="login_zc_margin">40dp</dimen>
+    <dimen name="login_top_margin_zc">22dp</dimen>
+    <dimen name="login_top_margin_zc_address">15dp</dimen>
+    <dimen name="login_text_size_phone">14sp</dimen>
+    <dimen name="login_iv_botton">50dp</dimen>
+
+    <!-- 竞猜设置界面 -->
+    <dimen name="zb_guess_set_pay">13sp</dimen>
+    <dimen name="zb_guess_set_padding">10dp</dimen>
+    <dimen name="zb_guess_set_text_size">18sp</dimen>
+    <dimen name="zb_guess_set_succeed_top">30dp</dimen>
+
+
+    <!--积分兑换界面-->
+    <dimen name="exchange_twofouro">240dp</dimen>
+    <dimen name="exchange_fourty_five">45dp</dimen>
+    <dimen name="exchange_fourty">40dp</dimen>
+    <dimen name="exchange_fifteen">15dp</dimen>
+    <dimen name="exchange_ten">10dp</dimen>
+    <dimen name="exchange_eight">8dp</dimen>
+    <dimen name="exchange_five">5dp</dimen>
+    <dimen name="exchange_fourteen">14sp</dimen>
+    <dimen name="exchange_sixteen">16sp</dimen>
+    <dimen name="fragment_undefined_padding">5dp</dimen>
+
+
+    <!--个人中心一级界面-->
+    <dimen name="person_sixty">65dp</dimen>
+    <dimen name="person_fifty_eight">58dp</dimen>
+    <dimen name="person_thirty">32dp</dimen>
+    <dimen name="person_forty">40dp</dimen>
+    <dimen name="person_twenty">20dp</dimen>
+    <dimen name="person_ten">10dp</dimen>
+    <dimen name="person_ften_five">15dp</dimen>
+    <dimen name="person_two">2dp</dimen>
+    <dimen name="person_one">1dp</dimen>
+    <dimen name="person_three">3dp</dimen>
+    <dimen name="person_tentwo">12sp</dimen>
+    <dimen name="person_fourteen">14sp</dimen>
+    <dimen name="person_five">5dp</dimen>
+    <dimen name="person_fifty_five">55dp</dimen>
+    <dimen name="person_sixteen">16sp</dimen>
+    <dimen name="person_four">4dp</dimen>
+    <dimen name="person_fourty_five">45dp</dimen>
+    <dimen name="person_enty">20dp</dimen>
+    <dimen name="person_seven">7dp</dimen>
+    <dimen name="person_nine">9dp</dimen>
+    <dimen name="person_eleven">11dp</dimen>
+
+
+    <!--  兑换中心的二级界面 -->
+
+    <dimen name="exchange_centre">60dp</dimen>
+    <dimen name="item_exchange_text_size">15sp</dimen>
+    <dimen name="item_exchange_margin">24dp</dimen>
+    <dimen name="item_exchange_width">112dp</dimen>
+    <dimen name="item_exchange_height">80dp</dimen>
+    <dimen name="item_exchange_right">14dp</dimen>
+    <dimen name="item_exchange_left">16dp</dimen>
+    <dimen name="item_exchange_iv_margin">10dp</dimen>
+    <dimen name="item_exchange_top">15dp</dimen>
+    <dimen name="item_exchange_centre_text_size">14sp</dimen>
+    <dimen name="item_exchange_centre_life">16dp</dimen>
+    <dimen name="item_exchange_centre_right">32dp</dimen>
+
+    <!-- 关注界面 -->
+
+    <dimen name="item_person_attention_text_size">12sp</dimen>
+    <dimen name="sex_width_magin">12dp</dimen>
+    <dimen name="sex_height_magin">12dp</dimen>
+    <dimen name="sex_left_magin">8dp</dimen>
+    <dimen name="grade_height_magin">12dp</dimen>
+    <dimen name="grade_width_magin">20dp</dimen>
+    <dimen name="grade_left_magin">2dp</dimen>
+    <dimen name="attention_iv_margin">12dp</dimen>
+
+    <!--图片选择页面-->
+    <dimen name="image_size">120dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <dimen name="folder_cover_size">72dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--设置界面-->
+    <dimen name="setting_fiveteen">15dp</dimen>
+    <dimen name="settting_fourteen">14sp</dimen>
+    <dimen name="setting_sixteen">16dp</dimen>
+    <dimen name="setting_eight">18dp</dimen>
+    <dimen name="setting_ten">10dp</dimen>
+    <dimen name="setting_tt">20dp</dimen>
+    <dimen name="setting_fivety">50dp</dimen>
+    <!-- 间隔线的高度-->
+    <dimen name="line">1dp</dimen>
+
+    <!-- 游客下注竞猜界面 -->
+    <dimen name="dialog_guessing_user_magin_all">10dp</dimen>
+    <dimen name="dialog_guessing_user_magin_top_all">15dp</dimen>
+
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 顶部按钮paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">16sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">17sp</dimen>
+    <!-- 选项文字大小 需要配合 bools.xml 的 pickerview_customTextSize 为 true 才有效果-->
+    <dimen name="pickerview_textsize">16sp</dimen>
+
+    <!--账户界面，添加地址界面-->
+    <dimen name="account_a">160dp</dimen>
+    <dimen name="account_b">4dp</dimen>
+    <dimen name="account_c">2dp</dimen>
+    <dimen name="account_d">30sp</dimen>
+    <dimen name="account_e">20dp</dimen>
+    <dimen name="account_f">10dp</dimen>
+    <dimen name="account_g">16sp</dimen>
+    <dimen name="account_h">30dp</dimen>
+    <dimen name="account_i">5dp</dimen>
+    <dimen name="account_j">80dp</dimen>
+    <!--主界面-->
+    <!-- 主界面的关注界面 -->
+    <dimen name="live_fragment_margin_left">15dp</dimen>
+    <dimen name="live_fragment_height">50dp</dimen>
+    <dimen name="item_living_tittle_view_hight">1px</dimen>
+    <dimen name="item_living_tittle_rl_padding_top">10dp</dimen>
+    <dimen name="item_living_tittle_rl_padding_bottom">10dp</dimen>
+    <dimen name="item_living_tittle_width">5dp</dimen>
+    <dimen name="item_living_tittle_height">18dp</dimen>
+    <dimen name="item_living_tittle_margin_left_tv">10dp</dimen>
+    <dimen name="item_living_tittle_height_rl">55dp</dimen>
+    <dimen name="item_living_tittle_margin">40dp</dimen>
+    <dimen name="item_living_tittle_left">15dp</dimen>
+    <dimen name="item_living_tittle_margin_left_ll">10dp</dimen>
+    <dimen name="item_living_tittle_margin_iv">12dp</dimen>
+    <dimen name="item_living_tittle_margin_left_iv">5dp</dimen>
+    <dimen name="item_living_tittle_iv_margin">10dp</dimen>
+    <dimen name="item_living_tittle_margin_ll">2dp</dimen>
+    <dimen name="item_living_tittle_margin_iv_rl">350dp</dimen>
+    <dimen name="item_living_tittle_margin_right_tv">12dp</dimen>
+    <dimen name="item_living_tittle_margin_top_tv">10dp</dimen>
+    <dimen name="item_living_tittle_margin_padding_bottom_tv">2dp</dimen>
+    <dimen name="item_living_tittle_margin_padding_top_tv">2dp</dimen>
+    <dimen name="item_living_tittle_drawable_padding_margin">2dp</dimen>
+    <dimen name="item_living_tittle_padding_tv">10dp</dimen>
+    <dimen name="item_living_tittle_view_left">15dp</dimen>
+
+    <dimen name="textandiconmargin">10dp</dimen>
+
+    <dimen name="thumnail_default_width">100dp</dimen>
+
+    <dimen name="thumnail_default_height">100dp</dimen>
+
+</resources>

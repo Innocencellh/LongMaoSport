@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.live.longmao.views.customviews.TemplateTitle
+        android:id="@+id/tt_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="@string/profile_set" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/set_live_animator"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.live.longmao.views.customviews.CustomSwitch
+            android:id="@+id/cs_animator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:src="@mipmap/btn_switch_off" />
+    </RelativeLayout>
+
+    <com.live.longmao.views.customviews.LineControllerView
+        android:id="@+id/lcv_set_log_level"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="onClick"
+        app:canNav="true"
+        app:isBottom="true"
+        app:name="@string/set_log_level" />
+
+    <com.live.longmao.views.customviews.LineControllerView
+        android:id="@+id/lcv_set_version"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="onClick"
+        app:canNav="false"
+        app:isBottom="true"
+        app:name="@string/set_sdk_version" />
+</LinearLayout>

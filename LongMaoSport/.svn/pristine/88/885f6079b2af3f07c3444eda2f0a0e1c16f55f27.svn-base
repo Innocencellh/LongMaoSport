@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    lintOptions {
+        abortOnError false
+        //即使报错也不会停止打包
+        //checkReleaseBuilds false
+        //打包release版本的时候进行检测
+    }
+    afterEvaluate {
+        tasks.matching {
+            it.name.startsWith('dex')
+        }.each { dx ->
+            if (dx.additionalParameters == null) {
+                dx.additionalParameters = []
+            }
+            dx.additionalParameters += '--multi-dex' // enable multidex
+
+            // optional
+            // dx.additionalParameters += "--main-dex-list=$projectDir/<filename>".toString() // enable the main-dex-list
+        }
+    }
+
+
+    signingConfigs {
+        debug {
+            storeFile file('../livelongmao.jks')
+            storePassword "zhang32719"
+            keyAlias "longmao.com"
+            keyPassword "zhang32719"
+        }
+
+        release {
+            storeFile file('../livelongmao.jks')
+            storePassword "zhang32719"
+            keyAlias "longmao.com"
+            keyPassword "zhang32719"
+        }
+    }
+    defaultConfig {
+        applicationId "com.live.longmao"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.2.0"
+
+        multiDexEnabled true
+
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+    }
+
+    //multiDex的一些相关配置，这样配置可以让你的编译速度更快
+    dexOptions {
+        preDexLibraries = false
+        //让它不要对Lib做preDexing
+        incremental true
+        //开启incremental dexing,优化编译效率，这个功能android studio默认是关闭的。
+        javaMaxHeapSize "4g"     //增加java堆内存大小
+    }
+
+    //默认的一些文件路径的配置
+//    sourceSets {
+//        main {
+//            assets.srcDirs = ['assets']    //资源文件
+//            jni.srcDirs 'src/main/jni'     //jni文件
+//            jniLibs.srcDir 'src/main/jniLibs' //jni库
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    compile 'com.android.support:recyclerview-v7:23.0.0'
+    compile 'com.android.support:design:23.2.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha1'
+    compile 'com.android.support:cardview-v7:23.0.0'
+    compile 'cn.dreamtobe.percentsmoothhandler:library:0.1.1'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile project(':pingpp')
+}

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 兑换礼物</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    兑换礼物
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <ul class="pblist aclist">
+        <li>
+            <a href="#">1.如何用龙猫豆兑换礼物？</a>
+            <div class="answer">打开龙猫直播App ->右下角点击“发现”-> 选择兑换的礼物 ->确认个人信息，即可兑换相应礼物。</div>
+        </li>
+        <li>
+            <a href="#">2.如何填写收货地址？</a>
+            <div class="answer">打开龙猫直播App ->右下角点击“我的”-> 更多 -> 收货地址 ->填写编辑收货地址。兑换礼物仅支持一个收货地址。</div>
+        </li>
+        <li>
+            <a href="#">3.如何查看兑换信息？</a>
+            <div class="answer">打开龙猫直播App ->右下角点击“发现”-> 兑换记录，即可查看兑换礼物的订单状态、物流信息等。</div>
+        </li> 
+        <li>
+            <a href="#">4.兑换礼物的发货时间？</a>
+            <div class="answer">兑换的礼物将在5个工作日内发出。</div>
+        </li> 
+        <li>
+            <a href="#">5.兑换的礼物支持退换货么？</a>
+            <div class="answer">兑换的礼物无质量问题，不支持退换货。如有质量问题，请于礼物签收后的3个工作日内与龙猫客服联系。</div>
+        </li> 			
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+<script type="text/javascript">
+    $(function(){
+        $(".aclist li").click(function(){
+            $(this).find("a").toggleClass("active").next(".answer").toggle().parents().siblings().find("a").removeClass("active").next(".answer").hide()
+        })
+    })
+</script>
+</body>
+</html>

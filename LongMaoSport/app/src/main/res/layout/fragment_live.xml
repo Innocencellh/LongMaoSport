@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:psts="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/title_color"
+    tools:context="com.lilu.live.fragment.MessageFragment">
+    <com.live.longmao.view.PagerSlidingTabStrip
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tabStrip"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@drawable/text_concern_tab_livelist"
+        android:textSize="16sp"
+        psts:pstsHasDivider="false"
+        psts:pstsIndicatorColor="#ffffff"
+        psts:pstsIndicatorHeight="2dp"
+        psts:pstsShortIndicator="true"
+        psts:pstsShouldExpand="true"
+        psts:pstsShowIndicator="true"
+        psts:pstsTabPaddingLeftRight="16dp"
+        psts:pstsUnderlineHeight="0dp" />
+    <com.live.longmao.view.InsideViewPager
+        android:id="@+id/vPager"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 经验与等级</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    经验与等级
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <ul class="pblist aclist">
+        <li>
+            <a href="#">1.经验、等级有什么作用？</a>
+            <div class="answer">经验是根据你在龙猫直播的行为获得。经验决定了等级，随着经验的增加而晋级更高的等级。高等级的用户会拥有更尊贵的特权。</div>
+        </li>
+        <li>
+            <a href="#">2.如何获取经验？</a>
+            <div class="answer">获取经验有三个方式：充值龙猫币、参与龙猫竞猜、赠送主播礼物。</br>
+			充值龙猫币，每充值1个龙猫币增加10点经验。</br>
+			参与龙猫竞猜，每押注10个龙猫豆，增加10点经验。</br>
+			赠送主播礼物，每赠送1个龙猫币增加10点经验。多送多得，多玩多得。</div>
+        </li> 		
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+<script type="text/javascript">
+    $(function(){
+        $(".aclist li").click(function(){
+            $(this).find("a").toggleClass("active").next(".answer").toggle().parents().siblings().find("a").removeClass("active").next(".answer").hide()
+        })
+    })
+</script>
+</body>
+</html>

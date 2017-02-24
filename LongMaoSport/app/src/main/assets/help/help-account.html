@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 账号</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    账号
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <ul class="pblist aclist">
+        <li>
+            <a href="#">1.如何登陆龙猫直播？</a>
+            <div class="answer">龙猫直播目前仅支持手机号注册验证登录。</div>
+        </li>
+        <li>
+            <a href="#">2.登陆失败怎么办？</a>
+            <div class="answer">建议关闭APP，切换4G/WIFI网络，然后尝试重新登录。</div>
+        </li>
+        <li>
+            <a href="#">3.如何更改个人资料？</a>
+            <div class="answer">1.点击“我的”->用户名右侧的编辑图标。</br> 2.点击“我的”->个人主页->右上角编辑图标。</br>
+			进入个人资料编辑界面，在这里可以更改头像、昵称、性别、个人简介等信息，个人信息需符合龙猫相关规则。</div>
+        </li>
+        <li>
+            <a href="#">4.如何查看卡路里贡献榜？</a>
+            <div class="answer">在APP点击“我的-卡路里贡献榜”，便可以查看到贡献卡路里的小伙伴的排名。</div>
+        </li>
+        <li>
+            <a href="#">5.账号可以注销吗？</a>
+            <div class="answer">目前账号不支持注销。</div>
+        </li>
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+<script type="text/javascript">
+    $(function(){
+        $(".aclist li").click(function(){
+            $(this).find("a").toggleClass("active").next(".answer").toggle().parents().siblings().find("a").removeClass("active").next(".answer").hide()
+        })
+    })
+</script>
+</body>
+</html>

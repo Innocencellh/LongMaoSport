@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/zhifubao_rv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/zhifu_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="到账支付宝"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@+id/zhifu_tv"
+            android:text="支付宝（7825***j@qq.com）"
+            android:textColor="#878787"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/tixian_back_btn"
+            android:layout_width="7dp"
+            android:layout_height="11dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ti_ly"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/renminbi" />
+
+            <EditText
+                android:id="@+id/money_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint=""
+                android:padding="10dp"
+                android:numeric="integer"
+                android:editable="true"
+                android:maxLines="1"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="#222"
+                android:textSize="25sp" />
+            <requestFocus />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/ti_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/ti_ly"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ti_view"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="余额"
+                android:textColor="#878787"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tixian_money_yu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="200.00"
+                android:textColor="#878787"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tixian_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:clickable="true"
+                android:text="全部提现"
+                android:textColor="@color/item_name_color"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:text="*每周一开放，3个工作日审核到账"
+        android:textColor="#878787"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/money_tixian_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/btn_select_bg"
+        android:text="提现"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+</LinearLayout>

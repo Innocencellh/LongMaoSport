@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_inputdlg_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/switch_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/message_barrage_off"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/switch_btn"
+            android:background="@color/colorGray3"/>
+        <com.live.longmao.view.EditTextPreimeView
+            android:id="@+id/input_message"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/switch_btn"
+            android:layout_toLeftOf="@+id/confrim_btn"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="和大家说点什么"
+            android:textColorHint="@color/colorGray3"
+            android:singleLine="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text=""
+            android:imeOptions="actionDone"
+            android:textColor="@color/black"
+            android:maxLength="32"
+            android:textSize="@dimen/h6" />
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/confrim_btn"
+            android:background="@color/colorGray3"/>
+
+        <TextView
+            android:id="@+id/confrim_btn"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:textColor="@color/light_green_color"
+            android:text="@string/send" />
+    </RelativeLayout>
+
+</RelativeLayout>

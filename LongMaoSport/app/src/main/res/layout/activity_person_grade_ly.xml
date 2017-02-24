@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/title_color">
+
+            <RelativeLayout
+                android:id="@+id/grade_rv1"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_marginTop="18dp">
+
+                <ImageView
+                    android:id="@+id/iv_grade"
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/person_grade_log" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="1"
+                    android:textColor="@color/title_color"
+                    android:textSize="35dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/grade_ly1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grade_rv1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="距离 LV1 还差 380"
+                    android:paddingTop="15dp"
+                    android:textColor="#eee"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.live.longmao.view.MagicProgressBar
+                android:id="@+id/pb_magic"
+                style="@style/demo_progress_bar"
+                android:layout_height="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/grade_ly1"
+                android:background="@drawable/et_one_select_bg"
+                app:mpb_fill_color="#24c789"
+                app:mpb_flat="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/title_color"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7.5dp"
+                    android:gravity="left"
+                    android:text="等级权限"
+                    android:textColor="#222222"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@mipmap/live_on" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="开播权限"
+                        android:textColor="#222"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="LV1开启"
+                        android:textColor="#878787"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:src="@mipmap/huizhang_no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="专属徽章"
+                        android:textColor="#222"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="LV6开启"
+                        android:textColor="#878787"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:src="@mipmap/texiao_no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="进场特效"
+                        android:textColor="#222"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="LV11开启"
+                        android:textColor="#878787"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:src="@mipmap/hongbao_no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="红包特权"
+                        android:textColor="#222"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="LV11开启"
+                        android:textColor="#878787"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:src="@mipmap/more" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="更多权限"
+                        android:textColor="#878787"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:text="敬请期待"
+                        android:textColor="#878787"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="4dp"
+                        android:layout_height="17dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/title_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7.5dp"
+                        android:gravity="left"
+                        android:text="如何升级"
+                        android:textColor="#222"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="经验值按照获得龙猫豆计算，1龙猫豆为1点经验"
+                    android:textColor="#878787"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        
+    </LinearLayout>
+
+</ScrollView>

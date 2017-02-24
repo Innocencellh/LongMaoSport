@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guess_bg">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user_guessing_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:src="@mipmap/icon_star_bg"
+            app:civ_border_color="@color/title_color"
+            app:civ_border_width="@dimen/person_one" />
+
+        <TextView
+            android:id="@+id/tv_user_guessing_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_user_guessing_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="大橙子"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_user_guessing_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_guessing_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:text="硬币是正面还是返回房间是开发环境案开始了回复对方会解散了反面？"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_guessing_tittle"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_uk_dialog3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="已封盘"
+                android:textColor="#eb7216"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_02"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_below="@+id/ll_01"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="下注池"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+                <com.live.longmao.view.MagicProgressBar
+                    android:id="@+id/pb_magic"
+                    android:layout_width="180dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center_vertical"
+                    app:mpb_background_color="#66947c"
+                    app:mpb_fill_color="#24c789"
+                    app:mpb_flat="true" />
+
+                <TextView
+                    android:id="@+id/tv_ukdialog_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="100"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_01"
+        android:orientation="vertical"
+        android:background="#95111111">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rb_can"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:text="A.能"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/tv_can"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:text="赔率1：1"
+                android:textColor="#eb7216" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:alpha="0.1"
+            android:background="#fff" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rb_no_can"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:text="B.不能"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/tv_no_can"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:text="赔率1：1"
+                android:textColor="#eb7216" />
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:alpha="0.5"
+             android:background="#111"
+             android:visibility="gone">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginRight="15dp"
+                 android:layout_marginTop="10dp"
+                 android:gravity="right"
+                 android:text="无正确选项？判定为流局"
+                 android:textColor="#fff" />
+         </LinearLayout>-->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_guess"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ll_answer"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_select_bg"
+        android:text="知道了"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+</RelativeLayout>

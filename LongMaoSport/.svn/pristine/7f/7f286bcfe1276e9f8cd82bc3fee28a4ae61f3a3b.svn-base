@@ -1,0 +1,95 @@
+﻿/*css reset*/
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,th,form,input,select,textarea{margin:0px; padding:0px;}
+li{list-style:none;}
+img{border:none;vertical-align: middle;}
+a{color:#282828; text-decoration: none;}
+a:hover{ text-decoration:none;}
+table{border-collapse:collapse;}
+textarea{resize:vertical; overflow:auto;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal; font-family:"microsoft yahei";}
+input, select, textarea{font-size:inherit; font-family:"microsoft yahei"; color:inherit; outline:none;}
+em,i{font-style: normal;}
+body{overflow-x:hidden;font-family:"microsoft yahei";background: #EEEEEE}
+
+/********************public********************/
+.clearfix{zoom:1;}
+.clearfix:after {content:""; display:block; clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.mt50{margin-top: 50px}
+.mt85{margin-top: 85px}
+.mb85{margin-bottom: 85px}
+/*帮助中心*/
+.phead{position: fixed;top:0;left: 0;width: 100%;height: 50px;background: #5B4E61;line-height: 50px;text-align: center;color: #fff;font-size: 18px;z-index: 9999}
+.goback{position: absolute;left: 12px;top: 0}
+.shareico{position: absolute;right: 15px}
+.comQues h3{height: 50px;line-height: 50px;background: #fff;padding: 0 15px;color: #282828;font-size: 17px}
+.pblist{overflow: hidden;background: #fff;padding: 10px 10px 0;margin: 10px 0 75px}
+.pblist li{border-bottom: 1px solid #DEDEDE;height: 60px;line-height: 60px;font-size: 16px;padding: 0 10px;position: relative;}
+.pblist li:last-child{border-bottom: none;}
+.pblist li span{display: inline-block;width: 45px;}
+.pblist li a{color: #474747;display: block;background: url(../images/arrow.png) no-repeat right center;background-size: 14px}
+.copy{color: #9A9A9A;font-size: 15px;;position: fixed;bottom: 0;left:0;width: 100%;text-align: center;background: #EEEEEE;padding: 10px 0}
+/*账号*/
+.aclist{padding: 10px 0 0;}
+.aclist li{height:auto;padding: 0}
+.aclist li a{padding: 0 15px;background: url(../images/arrow.png) no-repeat 96% center;background-size: 14px}
+.aclist li a.active{background: url(../images/darrow.png) no-repeat 96% center;background-size: 22px}
+.answer{background: #EEEEEE;padding: 15px 10px;display: none;line-height: 26px}
+/*龙猫ID*/
+.catID{background: #fff;padding: 30px 20px 10px}
+.errorId{padding-left: 50px;color: red;margin-top: 3px;display: none;}
+.inputBox{background: #E9E9E9;border-radius: 4px;height: 40px;line-height: 40px;padding: 5px 0}
+.inputBox label{display: inline-block;width: 50px;text-align: center;border-right: 1px solid #DCDCDC;}
+.inputBox input{width: 70%;padding: 5px;background: none;border: none;font-size: 16px}
+.ensure{background: #25BF76;border-radius: 4px;color: #fff;text-align: center;font-size: 18px;border: none;width: 100%;height: 50px;line-height: 50px;margin: 40px 0 25px}
+.catdes{margin: 20px;color:#A095A1;font-size: 14px;line-height: 25px }
+.catdes .catTit{color:#877489;font-size: 18px;margin-bottom: 10px }
+/*充值*/
+.czTop{background: #fff;padding: 10px 0;position: fixed;left: 0;width: 100%;top: 0;height: 55px;}
+.czTop a{color: #272727;font-size: 18px}
+.advar{width: 55px;height: 55px;border-radius: 100%;margin-left: 15px;margin-right: 4px}
+.changeAcnt{margin: 15px 20px;}
+.czForm{margin-bottom: 10px}
+.czCon{background: #fff;padding: 15px 10px;overflow: hidden;}
+.czCon ul{border-bottom: 1px solid #EEEEEE;overflow: hidden;padding-bottom: 10px;margin-bottom: 15px;text-align: center;}
+.czCon ul li{border: 1px solid #5B4E61;color: #5F4D62;margin: 5px 3px;width: 30%;text-align: center;border-radius: 4px;padding: 8px 0;line-height: 25px;font-size: 15px;display: inline-block;position: relative;}
+.czCon ul li img{position: absolute;right: -2px;top: -2px;width: 40px}
+.czCon ul li b{display: none;}
+.czCon ul li.active{background: #5B4E61;color: #fff}
+.custom{overflow: hidden;}
+.custom span{color: #7C7C7C;float: left;}
+.custom label{display: inline-block;padding-right: 15px}
+.sum{color: #7C7C7C;margin-top: 15px }
+.sum label{color: #464646}
+.czbtn{background: #25BF76;display: block;height: 50px;line-height: 50px;color: #fff;font-size: 18px;text-align: center;border-radius: 4px;margin: 40px 15px}
+.cques{text-align: center;color: #5D5D5E;display: block;position: fixed;bottom: 20px;left:0;width: 100%;}
+.mask{width: 100%;height: 100%;position: fixed;left: 0;top: 0;z-index: 99;background: rgba(0,0,0,0.3);display: none;}
+.czTank{width: 70%;background: #fff;border-radius: 5px;padding: 10px 5%;position: fixed;left: 50%;margin-left: -40%;z-index: 990;top:50%;color: #2B2B2B;font-size: 16px;line-height: 25px;height: 166px;margin-top: -83px;display: none;}
+.czTank h3{font-size: 18px;text-align: center;padding: 10px 0}
+.czTank p span{display: inline-block;width: 44%;height: 35px;line-height: 35px;border: 1px solid #BEBEBE;text-align: center;margin: 20px 5px 0;border-radius: 3px;color: #5C5C5C}
+.czTank p span.confirm{background: #37B271;color: #fff;border: 1px solid #37B271}
+.czSuc{width: 50%;background: #fff;border-radius: 5px;padding: 10px 5%;position: fixed;left: 50%;margin-left: -30%;z-index: 990;top:50%;height: 120px;margin-top: -60px;text-align: center;line-height: 120px;font-size: 18px;display: none;}
+.reTank{position: fixed;left: 50%;margin-left:-45% ;width: 90%;top:50%;display: none;z-index: 991}
+.close{float: right;width: 22px;position: absolute;top:6px;right: 20px}
+
+/*用户协议*/
+.protocol{margin: 65px 15px;color: #555;font-size: 14px;line-height: 24px}
+.protocol h2,.protocol h3{color: #5B4E62;font-weight: bold;margin: 12px 0}
+.protocol h2{font-size: 18px;}
+.protocol h3{font-size: 16px}
+.protocol p{margin: 10px 0}
+.protocol img{max-width: 100%}
+/*竞猜说明*/
+.switcha{position: fixed;top: 50px;width: 100%;background: #fff;}
+.switcha a{display: block;text-align: center;font-size: 18px;margin: 10px auto 5px;height: 45px;line-height: 45px;border-radius: 5px;background: #E1E1E1;color: #929292;width: 90%}
+.switcha a.active{background: #24C789;color: #fff;}
+.instruct{margin-top: 190px}
+.instruct .tline{border-left: 5px solid #24C789;padding-left: 5px}
+
+
+
+@media screen and (max-width: 320px){
+.czCon ul li{margin:5px 2px }
+.custom p input{width: 73%;padding: 0 10px}
+}

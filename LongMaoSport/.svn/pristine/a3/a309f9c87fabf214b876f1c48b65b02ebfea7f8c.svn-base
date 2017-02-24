@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="龙猫币"
+                android:textSize="13dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_calorie"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/iv_calorie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_big_money" />
+
+                <TextView
+                    android:id="@+id/tv_bean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/iv_calorie"
+                    android:text="0"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_calorie"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_10"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_1"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 1000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="100 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_100"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_2"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 10000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="1000 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_100"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_300"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_3"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb300"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 30000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="3000 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_300"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_500"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_4"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 50000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="5000 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_500"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_1000"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_5"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb1000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 100000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b5"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="10000 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_1000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_5000"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_6"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb5000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 500000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b6"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="50000 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_5000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_10000"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_7"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb10000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 1000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b7"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="100000 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_10000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/back" />
+
+            <RelativeLayout
+                android:id="@+id/rl_100000"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/line_8"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tv_lmb100000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="龙猫豆 10000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_b8"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/earnings_shape"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="1000000 币"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

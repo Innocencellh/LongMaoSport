@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/big_gift_tittle"
+    android:layout_width="wrap_content"
+    android:layout_height="27dp"
+    android:background="@mipmap/icon_big_gift_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/big_gift_hand"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginTop="11dp"
+        android:src="@mipmap/icon_star_bg"
+        app:civ_border_color="@color/title_color"
+        app:civ_border_width="@dimen/person_one" />
+
+    <TextView
+        android:id="@+id/big_gift_myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="我是大帅哥"
+        android:maxEms="5"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#24c789"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text=":"
+        android:textColor="#24c789"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/big_gift_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="送一辆"
+        android:textColor="@color/colorLabelYellowActive"
+        android:textSize="13sp" />
+
+</LinearLayout>

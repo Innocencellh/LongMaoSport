@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bgRl"
+        android:background="#50000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/gift_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/ll_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/gift_img">
+        <TextView
+            android:id="@+id/gift_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99999"
+            android:textColor="@color/light_green_color"
+            android:textSize="12dp" />
+            <ImageView
+                android:id="@+id/gift_moneg_img"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="2dp"
+                android:background="@mipmap/icon_big_money"
+                android:textColor="@color/title_color" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/gift_experience"
+            android:layout_below="@+id/ll_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_centerHorizontal="true"
+            android:text="+10点经验值"
+            android:textSize="10dp"
+            android:textColor="@color/colorGray4"/>
+
+        <ImageView
+            android:id="@+id/img_select"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_gift_select" />
+        <ImageView
+            android:id="@+id/img_send"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_gift_no_select" />
+        <ImageView
+            android:id="@+id/img_svip"
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_lm_svip" />
+
+    </RelativeLayout>
+</LinearLayout>

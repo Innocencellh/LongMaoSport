@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="龙猫豆余额"
+                android:textColor="#878787"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/all_longmaobi_yu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:paddingTop="5dp"
+                android:text="20000"
+                android:textColor="#5b4e62"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="龙猫币余额"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/kaluli_yu_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="12000"
+                android:textColor="#5b4e62"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_exchange_bi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="充值"
+                android:textColor="#24c789"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_exchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ly1">
+
+            <EditText
+                android:id="@+id/et_exchange"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/et_money_select_bg"
+                android:editable="true"
+                android:hint="请输入兑换龙猫币数量"
+                android:maxLines="1"
+                android:numeric="integer"
+                android:padding="5dp"
+                android:textColor="#222222"
+                android:textColorHint="#bbbbbb"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:textColor="#111"
+                android:text="币" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_exchange"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="=  "
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/exchange_longmaobi_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="0"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text=" 龙猫豆"
+                android:textColor="#222"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/exchange_bi_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_select_bg"
+        android:text="兑换"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="温馨提示："
+        android:textColor="#878787"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:text="1龙猫币=10龙猫豆"
+        android:textColor="#878787"
+        android:textSize="13dp" />
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:text="2.卡路里兑换成龙猫币，需要收取少量手续费"
+        android:textColor="#878787"
+        android:textSize="13dp" />-->
+
+
+</LinearLayout>

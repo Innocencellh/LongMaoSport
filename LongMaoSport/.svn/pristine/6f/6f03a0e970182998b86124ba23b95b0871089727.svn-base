@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <View
+        android:id="@+id/v_fengpan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/guess_all_bg">
+
+        <include
+            layout="@layout/a_bzb_jingcai_jiesuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="90dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/icon_guess_back" />
+    </RelativeLayout>
+</RelativeLayout>

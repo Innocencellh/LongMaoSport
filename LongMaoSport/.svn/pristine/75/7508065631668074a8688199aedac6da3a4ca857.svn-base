@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 封号</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    封号
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <ul class="pblist aclist">
+        <li>
+            <a href="#">1.什么情况下账户会被封？</a>
+            <div class="answer">只有在账号违规的情况下才会封号。龙猫提倡绿色正能量的直播氛围，建议参考龙猫用户协议、龙猫主播协议。</br>
+			温馨提示：</br>
+			1.龙猫对违规行为实施从严标准，所有主播或用户，如果言论和行为有违龙猫协议的，视情节轻重予以警告、拉黑或永久封号处理；</br>
+			2.任何用户都可以通过“举报”功能对违规主播、用户进行举报；如果发现用户的举报投诉是恶意行为，我们也将对恶意举报投诉的用户进行相应的处罚。</br>
+			</div>
+        </li>
+       		
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+<script type="text/javascript">
+    $(function(){
+        $(".aclist li").click(function(){
+            $(this).find("a").toggleClass("active").next(".answer").toggle().parents().siblings().find("a").removeClass("active").next(".answer").hide()
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bigkoo.convenientbanner.ConvenientBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:canLoop="true">
+
+    </com.bigkoo.convenientbanner.ConvenientBanner>
+
+    <RelativeLayout
+        android:id="@+id/rl_near"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/ll_head"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <View
+            android:layout_width="@dimen/green_line_w"
+            android:layout_height="@dimen/green_line_h"
+            android:layout_centerVertical="true"
+            android:background="@color/title_color" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="附近门店"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <com.live.longmao.adapter.see.HorizontalListView
+        android:id="@+id/horizon_listview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        >
+    </com.live.longmao.adapter.see.HorizontalListView>
+    <RelativeLayout
+        android:id="@+id/rl_near1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/recyclerview1"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <View
+            android:layout_width="@dimen/green_line_w"
+            android:layout_height="@dimen/green_line_h"
+            android:layout_centerVertical="true"
+            android:background="@color/title_color" />
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="竞猜中的直播"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

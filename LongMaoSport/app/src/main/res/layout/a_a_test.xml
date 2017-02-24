@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="返回" />
+    <Button
+        android:id="@+id/a_a_btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="主播开启竞猜" />
+
+    <Button
+        android:id="@+id/zb_fengpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主播封盘" />
+
+    <Button
+        android:id="@+id/zb_jiesuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主播结算" />
+
+    <Button
+        android:id="@+id/dupan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读盘" />
+
+    <Button
+        android:id="@+id/yh_xiazhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户下注" />
+
+
+    <ListView
+        android:id="@+id/zb_guessing_listview"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>

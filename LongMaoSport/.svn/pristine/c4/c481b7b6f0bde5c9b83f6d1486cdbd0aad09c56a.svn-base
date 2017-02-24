@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pullzoom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_all"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.live.longmao.pullzoom.PullZoomScrollVIew
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        pullzoom:headview="@layout/item_headview"
+        pullzoom:zoomview="@layout/zoom_view"
+        pullzoom:contentview="@layout/content_view">
+
+    </com.live.longmao.pullzoom.PullZoomScrollVIew>
+</LinearLayout>

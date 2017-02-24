@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon_star_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cover"
+        android:background="@color/colorMask"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_follow_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="30人观看"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_near_distance"
+            android:src="@mipmap/icon_address_white" />
+
+        <TextView
+            android:id="@+id/tv_near_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="2.5km"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h4" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/live_logo_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@drawable/near_bg">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Nbs"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h4" />
+
+        <TextView
+            android:id="@+id/new_live_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/living_image"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="2dp"
+            android:text="直播中"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h0" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

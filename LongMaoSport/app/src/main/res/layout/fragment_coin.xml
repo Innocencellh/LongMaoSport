@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/coin_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/rl_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_money_select_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp"
+                    android:text="60币" />
+
+                <TextView
+                    android:id="@+id/tv_m1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv1"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#878787"
+                    android:text="￥6" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/rl_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_money_select_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp"
+                    android:text="300币" />
+
+                <TextView
+                    android:id="@+id/tv_m2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv2"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#878787"
+                    android:text="￥30" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/icon_account_one" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/rl_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_money_select_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp"
+                    android:text="980币" />
+
+                <TextView
+                    android:id="@+id/tv_m3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv3"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#878787"
+                    android:text="￥98" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/icon_account_two" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/coin_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coin_ll"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/rl_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_money_select_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp"
+                    android:text="2980币" />
+
+                <TextView
+                    android:id="@+id/tv_m4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv4"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#878787"
+                    android:text="￥298" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/icon_account_three" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/rl_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_money_select_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp"
+                    android:text="5880币" />
+
+                <TextView
+                    android:id="@+id/tv_m5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv5"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#878787"
+                    android:text="￥588" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/icon_account_four" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/rl_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_money_select_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp"
+                    android:text="19990币" />
+
+                <TextView
+                    android:id="@+id/tv_m6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv6"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#878787"
+                    android:text="￥1999" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/icon_account_five" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/coin_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/coin_l"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightGreyColor" />
+
+    <!--<RelativeLayout
+        android:id="@+id/coin_rl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/coin_line"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/coin_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="自定义充值"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_money"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/coin_custom"
+            android:background="@drawable/et_money_select_bg"
+            android:ems="10"
+            android:textColor="#878787"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true">
+            &lt;!&ndash;显示EditText的游标&ndash;&gt;
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:text="币" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/coin_rl_coin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/coin_rl"
+        android:layout_marginTop="3dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/coin_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="支付金额" />
+
+        <TextView
+            android:id="@+id/coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/coin_coin"
+            android:hint="0 元"
+            android:textColor="#878787"/>
+    </RelativeLayout>-->
+
+
+    <RelativeLayout
+        android:id="@+id/coin_rl_pay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/coin_line"
+        android:background="@color/back"
+        android:paddingTop="5dp">
+
+        <RelativeLayout
+            android:id="@+id/coin_rl_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/account_f"
+            android:background="@color/white"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/tv_ply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:text="支付方式" />
+
+            <RadioGroup
+                android:id="@+id/rg_select"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="45dp"
+                android:layout_toRightOf="@+id/tv_ply"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbtn_zfbpay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/radiobutton"
+                    android:checked="true"
+                    android:paddingLeft="@dimen/account_i"
+                    android:text="支付宝充值" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_wxpay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/radiobutton"
+                    android:paddingLeft="@dimen/account_i"
+                    android:text="微信支付" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/coin_pay"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/coin_rl_c"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_select_bg"
+            android:text="充值"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

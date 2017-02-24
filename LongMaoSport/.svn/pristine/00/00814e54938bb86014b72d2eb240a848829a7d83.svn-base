@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rv_layout"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="卡路里（卡）"
+                android:textColor="@color/lab_un"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_kaluli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="#5b4e62"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_below="@id/rv_layout"
+        android:id="@+id/person_tixian"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="提现"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@drawable/btn_select_bg"/>
+    <Button
+        android:layout_below="@id/person_tixian"
+        android:id="@+id/person_Longmao_code"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="兑换龙猫币"
+        android:textColor="@color/item_name_color"
+        android:textSize="16sp"
+        android:background="@drawable/earnings_shape"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:textSize="14dp"
+        android:textColor="@color/item_name_color"
+        android:text="常见问题"/>
+
+</RelativeLayout>

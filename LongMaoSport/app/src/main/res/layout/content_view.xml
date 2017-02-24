@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/tv_test1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/info_extra"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_info_extra" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/info_extra"
+                android:text="收益"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_nine"
+                android:layout_toLeftOf="@+id/content_right1"
+                android:text="0"
+                android:textSize="@dimen/h6" />
+
+            <ImageView
+                android:id="@+id/content_right1"
+                android:layout_width="@dimen/person_seven"
+                android:layout_height="@dimen/person_eleven"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/right_arrow" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/back" />
+
+        <RelativeLayout
+            android:id="@+id/tv_test2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <ImageView
+                android:id="@+id/info_ran"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_info_rank" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/info_ran"
+                android:text="账户"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_nine"
+                android:layout_toLeftOf="@+id/content_right2"
+                android:text="0"
+                android:textSize="@dimen/h6" />
+
+            <ImageView
+                android:id="@+id/content_right2"
+                android:layout_width="@dimen/person_seven"
+                android:layout_height="@dimen/person_eleven"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/right_arrow" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/back" />
+
+        <RelativeLayout
+            android:id="@+id/tv_test3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/info_longmaoBean"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_info_bean" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/info_longmaoBean"
+                android:text="龙猫豆"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_nine"
+                android:layout_toLeftOf="@+id/content_right3"
+                android:text="0"
+                android:textSize="@dimen/h6" />
+
+            <ImageView
+                android:id="@+id/content_right3"
+                android:layout_width="@dimen/person_seven"
+                android:layout_height="@dimen/person_eleven"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/right_arrow" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/back" />
+
+
+        <RelativeLayout
+            android:id="@+id/tv_test4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/info_key"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_info_key" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/info_key"
+                android:text="主播认证"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:layout_toLeftOf="@+id/info_keys"
+                android:text="认证成功"
+                android:textSize="@dimen/h5" />
+
+            <ImageView
+                android:id="@+id/info_keys"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_nine"
+                android:layout_toLeftOf="@+id/content_right4"
+                android:src="@mipmap/icon_confirm" />
+
+            <ImageView
+                android:id="@+id/content_right4"
+                android:layout_width="@dimen/person_seven"
+                android:layout_height="@dimen/person_eleven"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/right_arrow" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:visibility="gone"
+            android:background="@color/back" />
+        <RelativeLayout
+            android:id="@+id/tv_test_team"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/info_team"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_info_company" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/info_team"
+                android:text="企业认证"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_nine"
+                android:layout_toLeftOf="@+id/content_right_team"
+                android:text="未认证"
+                android:textSize="@dimen/h5" />
+
+
+            <ImageView
+                android:id="@+id/content_right_team"
+                android:layout_width="@dimen/person_seven"
+                android:layout_height="@dimen/person_eleven"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/right_arrow" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/back" />
+        <RelativeLayout
+            android:id="@+id/tv_test5"
+            android:layout_width="match_parent"
+            android:layout_height="51dp">
+
+            <ImageView
+                android:id="@+id/info_king"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_info_king" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/info_king"
+                android:text="卡路里贡献榜"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/h6" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pp_one"
+                android:layout_width="@dimen/person_thirty"
+                android:layout_height="@dimen/person_thirty"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_three"
+                android:layout_toLeftOf="@+id/pp_two"
+                android:src="@mipmap/icon_gift_vacancy"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/person_two" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pp_two"
+                android:layout_width="@dimen/person_thirty"
+                android:layout_height="@dimen/person_thirty"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_three"
+                android:layout_toLeftOf="@+id/pp_three"
+                android:src="@mipmap/icon_gift_vacancy"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/person_two" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pp_three"
+                android:layout_width="@dimen/person_thirty"
+                android:layout_height="@dimen/person_thirty"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/person_nine"
+                android:layout_toLeftOf="@+id/content_right5"
+                android:src="@mipmap/icon_gift_vacancy"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/person_two" />
+
+            <ImageView
+                android:id="@+id/content_right5"
+                android:layout_width="@dimen/person_seven"
+                android:layout_height="@dimen/person_eleven"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/right_arrow" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/person_enty"
+            android:background="@color/back" />
+
+        <RelativeLayout
+            android:id="@+id/tv_test6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/info_setting"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_info_setting" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/info_setting"
+                android:text="设置"
+                android:textSize="@dimen/h6" />
+
+            <ImageView
+                android:id="@+id/content_right6"
+                android:layout_width="@dimen/person_seven"
+                android:layout_height="@dimen/person_eleven"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/right_arrow" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/back" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

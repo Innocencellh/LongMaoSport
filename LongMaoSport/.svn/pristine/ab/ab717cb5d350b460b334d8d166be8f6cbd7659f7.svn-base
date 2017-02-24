@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_att1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="真实姓名："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white"
+            android:hint="请输入您的真实姓名"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_att1"
+        android:layout_marginLeft="15dp"
+        android:background="@color/back" />
+
+    <LinearLayout
+        android:id="@+id/ll_att2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="身份证："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/identity_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white"
+            android:hint="请输入与姓名一致的身份证号"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_att2"
+        android:layout_marginLeft="15dp"
+        android:background="@color/back" />
+
+    <LinearLayout
+        android:id="@+id/ll_att3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="手机号码："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white"
+            android:hint="请输入您的手机号"
+            android:singleLine="true"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_att3"
+        android:background="@color/back" />
+
+    <LinearLayout
+        android:id="@+id/ll_att5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line3"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="注意："
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/gray"
+            android:text="@string/attestation_text_one"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gray"
+            android:text="@string/attestation_text_two"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/attestation_text_three_1"
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/attestation_text_three_2"
+                android:textColor="@color/btn_blue"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/attestation_text_three_3"
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/succeed"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/ll_att5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_select_bg"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

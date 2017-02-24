@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+    <RelativeLayout
+        android:id="@+id/rv_hidtory"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="累计提现："
+                android:textColor="#878787"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="0.00"
+                android:textColor="#222"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="元"
+                android:textColor="#878787"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/history_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rv_hidtory"
+        android:src="@mipmap/history_zhanweitu"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/history_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_hidtory"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:divider="@null">
+
+    </ListView>
+
+
+</RelativeLayout>

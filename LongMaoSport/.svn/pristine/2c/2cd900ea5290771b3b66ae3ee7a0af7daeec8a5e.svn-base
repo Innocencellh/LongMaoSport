@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:psts="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/live_fragment_height"
+        android:background="@color/title_color">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/live_fragment_margin_left"
+            android:src="@mipmap/search" />
+    </RelativeLayout>
+
+    <com.live.longmao.view.PagerSlidingTabStrip
+        android:id="@+id/tabStrip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/live_fragment_height"
+        android:layout_centerHorizontal="true"
+        android:textColor="@drawable/text_concern_tab_livelist"
+        android:textSize="@dimen/h10"
+        psts:pstsHasDivider="false"
+        psts:pstsIndicatorColor="@color/white"
+        psts:pstsIndicatorHeight="@dimen/toolH"
+        psts:pstsShortIndicator="true"
+        psts:pstsShouldExpand="true"
+        psts:pstsShowIndicator="true"
+        psts:pstsTabPaddingLeftRight="@dimen/toolPaddW"
+        psts:pstsUnderlineHeight="0dp" />
+
+    <com.live.longmao.view.InsideViewPager
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabStrip"
+        android:layout_gravity="center"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.live.longmao.xrecyclerview.XRecyclerView
+        android:id="@+id/bean_xListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </com.live.longmao.xrecyclerview.XRecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/rl_history_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_null"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@mipmap/icon_null_bg" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_null"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/iv_null"-->
+        <!--android:layout_marginTop="5dp" />-->
+
+
+        <ImageView
+            android:id="@+id/history_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/history_zhanweitu" />
+
+        <TextView
+            android:id="@+id/tv_null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/history_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="#878787"
+            android:textSize="16sp"
+            android:text="未关注" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

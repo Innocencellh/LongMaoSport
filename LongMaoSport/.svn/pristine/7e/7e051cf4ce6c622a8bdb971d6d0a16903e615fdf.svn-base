@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\pingpp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\cmbkb_push_bottom_out.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\pingpp\\build\\intermediates\\bundles\\debug\\res\\anim\\cmbkb_push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\pingpp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\cmbkb_push_bottom_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\pingpp\\build\\intermediates\\bundles\\debug\\res\\anim\\cmbkb_push_bottom_in.xml"
+    }
+]

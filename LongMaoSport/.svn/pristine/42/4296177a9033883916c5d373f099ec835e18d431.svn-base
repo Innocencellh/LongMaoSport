@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 直播</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    直播
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <ul class="pblist aclist">
+        <li>
+            <a href="#">1.如何设置封面？</a>
+            <div class="answer">龙猫的直播封面就是个人头像，在APP点击“我的->编辑个人信息”点击头像即可更改。</div>
+        </li>
+        <li>
+            <a href="#">2.如何开启直播？</a>
+            <div class="answer">打开龙猫直播APP，点击屏幕底部中间的按钮即可开始直播。当前版本还未开放全民直播，仅支持家族主播开播。</div>
+        </li>
+        <li>
+            <a href="#">3.如何开启美颜/翻转/闪光灯镜头？</a>
+            <div class="answer">开始直播后选择直播界面右下角的箭头按钮，可以根据需要选择开启美颜、闪光灯或翻转镜头。</div>
+        </li>
+        <li>
+            <a href="#">4.如何开启/关闭定位？</a>
+            <div class="answer">在开直播之前可以看到提示定位打开或关闭，开了定位就会显示城市位置。</div>
+        </li>
+        <li>
+            <a href="#">5.为什么提示相机不可用？</a>
+            <div class="answer">安卓手机在手机设置里找到权限管理，找到龙猫直播，打开所有相机权限。</br>iOS用户在手机“设置-隐私-相机”打开龙猫直播相机权限。</div>
+        </li>
+		        <li>
+            <a href="#">6.如何上热门？如何上搜索推荐？</a>
+            <div class="answer">系统会更根据公正公平的算法自动推荐主播上热门，热门主播是不断滚动更新的，建议可以多开直播，丰富直播内容，多和粉丝互动，有利于增加上热门的机会。</div>
+        </li>
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+<script type="text/javascript">
+    $(function(){
+        $(".aclist li").click(function(){
+            $(this).find("a").toggleClass("active").next(".answer").toggle().parents().siblings().find("a").removeClass("active").next(".answer").hide()
+        })
+    })
+</script>
+</body>
+</html>

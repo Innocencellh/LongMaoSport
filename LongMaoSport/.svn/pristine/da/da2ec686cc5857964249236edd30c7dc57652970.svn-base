@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 背景颜色 -->
+    <color name="base_color">#F0F0F0</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 淡灰色 -->
+    <color name="lightGreyColor">#F2F2F2</color>
+    <!-- 标题颜色 -->
+    <color name="title_color">#5b4e61</color>
+    <color name="tr_tc">#4b4150</color>
+    <!-- 未选中颜色 -->
+    <color name="light_gray_color">#BBB3C2</color>
+    <!-- 灰色 -->
+    <color name="gray">#808080</color>
+    <color name="light_green_color">#69d2ce</color>
+
+    <color name="item_cotext_color">#24c789</color>
+    <color name="item_gift_color">#ec844b</color>
+
+    <color name="title_tr_color">#8069D2CE</color>
+    <color name="gift_bg">#90000000</color>
+    <color name="lab_un">#A2A2A2</color>
+    <color name="bg_un">#ECF0F3</color>
+    <color name="lab_on">#333333</color>
+
+    <color name="title_color_1">#98F5FF</color>
+    <color name="title_color_2">#8EE5EE</color>
+    <color name="title_color_3">#7AC5CD</color>
+    <color name="lable_bg">#E8836D</color>
+
+    <!--等级背景-->
+    <color name="color1_10">#99ce00</color>
+    <color name="color11_20">#3b3bff</color>
+    <color name="color21_30">#ff5580</color>
+    <color name="color31_40">#ff2626</color>
+    <color name="color41_50">#990099</color>
+    <color name="color51_60">#eab13e</color>
+    <color name="color61_70">#060606</color>
+    <color name="my_item_color">#99ce00</color>
+
+    <color name="tencent_tls_ui_white">#FFFFFF</color>
+    <color name="tencent_tls_ui_gray">#444444</color>
+    <color name="tencent_tls_ui_shadowgray">#CCCCCC</color>
+    <color name="tencent_tls_ui_deepgray">#777777</color>
+    <color name="tencent_tls_ui_countryCodeColor">#009900</color>
+    <color name="tencent_tls_ui_black">#000000</color>
+    <color name="tencent_tls_ui_titleBackground">#FFFFFF</color>
+    <color name="tencent_tls_ui_titleFontColor">#000000</color>
+    <color name="tencent_tls_ui_defaultButtonColor">#0099FF</color>
+    <color name="tencent_tls_ui_pressedButtonColor">#0066CC</color>
+    <color name="tencent_tls_ui_background">#EEEEEE</color>
+    <color name="tencent_tls_ui_transparent">#9000</color>
+
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="background">#F9F7F8</color>
+    <color name="background_gray1">#EBEBEB</color>
+    <color name="background_gray2">#E6E6E6</color>
+    <color name="background_gray3">#D4D4D4</color>
+    <color name="background_gray4">#EFEFF4</color>
+    <color name="line">#DDDDDD</color>
+    <color name="line_btn">#BBBBBB</color>
+    <color name="text_gray1">#777777</color>
+    <color name="text_gray2">#767676</color>
+    <color name="text_blue1">#1173CB</color>
+    <color name="text_blue2">#1173CA</color>
+    <color name="panel_black">#25272A</color>
+    <color name="black">#000000</color>
+    <color name="btn_red">#E31C29</color>
+    <color name="btn_red_hover">#E8484B</color>
+    <color name="btn_blue">#0F73CB</color>
+    <color name="btn_blue_hover">#1E86E4</color>
+    <color name="btn_text">#FFFFFF</color>
+    <color name="btn_text_hover">#CCFFFFFF</color>
+    <!--蒙版-->
+    <color name="colorMask">#66000000</color>
+
+
+
+    <!--app主色调，背景色-->
+    <color name="colorPrimary">#FFFFFF</color>
+    <!--背景色-->
+    <color name="colorBackground">#F0F0F0</color>
+    <!--app主题色，应用于导航，按钮-->
+    <color name="colorTheme">#80407A</color>
+    <!--主题色激活态，如按钮高亮-->
+    <color name="colorThemeActive">#A15C9A</color>
+    <!--红色标签/提示-->
+    <color name="colorLabelRed">#FF447D</color>
+    <!--红色标签/提示高亮-->
+    <color name="colorLabelRedActive">#FF89AB</color>
+    <!--黄色色标签/提示高亮-->
+    <color name="colorLabelYellowActive">#FFCD35</color>
+    <!--黄色蒙版-->
+    <color name="colorLabelYellowMask">#4DFFAE20</color>
+    <!--红色-->
+    <color name="colorRed">#FF3333</color>
+    <!--文字白色-->
+    <color name="colorTextWhite">#FFFFFF</color>
+    <!--文字G1-->
+    <color name="colorTextG1">#CCCCCC</color>
+    <!--文字G2-->
+    <color name="colorTextG2">#999999</color>
+    <!--文字G3-->
+    <color name="colorTextG3">#666666</color>
+    <!--文字G4-->
+    <color name="colorTextG4">#333333</color>
+    <!--文字black-->
+    <color name="colorTextBlack">#000000</color>
+    <!--gray1-->
+    <color name="colorGray1">#F0F0F0</color>
+    <!--light gray-->
+    <color name="colorLightGray">#E6E6E6</color>
+    <!--gray2-->
+    <color name="colorGray2">#DCDCDC</color>
+    <!--gray3-->
+    <color name="colorGray3">#C8C8C8</color>
+    <!--gray4-->
+    <color name="colorGray4">#787878</color>
+    <!--gray5-->
+    <color name="colorGray5">#505050</color>
+    <!--gray6-->
+    <color name="colorGray6">#141414</color>
+
+
+    <color name="colorSendName">#9966cc</color>
+    <color name="colorSendName1">#FF3163</color>
+    <color name="colorSendName2">#973365</color>
+    <color name="colorSendName3">#006599</color>
+    <color name="colorSendName4">#D07E44</color>
+    <color name="colorSendName5">#97BC87</color>
+    <color name="colorSendName6">#FFAE1F</color>
+    <color name="colorSendName7">#FF437D</color>
+    <color name="back">#eeeeee</color>
+    <!--蒙版-->
+
+    <color name="paleRed">#ff827c</color>
+
+
+    <color name="pickerview_timebtn_nor">#DF1E3D</color>
+    <color name="pickerview_timebtn_pre">#55DF1E3D</color>
+    <!-- 红色选择器
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color> -->
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+
+    <!--仿ios dialog-->
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <!-- 按钮的边框颜色-->
+    <color name="rim_bg">#388d69</color>
+
+    <color name="line_color">#eeeeee</color>
+    <color name="person_edit_tittle_text">#8d8d8d</color>
+    <color name="person_edit_text">#3a3a3a</color>
+
+    <color name="person_tips_color">#222222</color>
+    <color name="item_name_color">#24c789</color>
+</resources>

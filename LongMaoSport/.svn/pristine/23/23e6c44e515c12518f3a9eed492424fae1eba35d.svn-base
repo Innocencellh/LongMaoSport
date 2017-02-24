@@ -1,0 +1,103 @@
+-keep class com.live.longmao.BaseApp {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.live.longmao.activity.GradePagerActivity { <init>(); }
+-keep class com.live.longmao.views.HomeActivity { <init>(); }
+-keep class com.live.longmao.views.PublishLiveActivity { <init>(); }
+-keep class com.live.longmao.views.LiveActivity { <init>(); }
+-keep class com.live.longmao.views.EditProfileActivity { <init>(); }
+-keep class com.live.longmao.views.EditActivity { <init>(); }
+-keep class com.live.longmao.views.SetActivity { <init>(); }
+-keep class com.live.longmao.activity.LiveClassificationActivity { <init>(); }
+-keep class com.live.longmao.activity.ZBGuessSetActivity { <init>(); }
+-keep class com.live.longmao.activity.ExchangeActivity { <init>(); }
+-keep class com.live.longmao.find.FindSecondActivity { <init>(); }
+-keep class com.live.longmao.views.BaseActivity { <init>(); }
+-keep class com.live.longmao.activity.PersonAttentionActivity { <init>(); }
+-keep class com.live.longmao.activity.InfoActivity { <init>(); }
+-keep class com.live.longmao.activity.AttestationActivity { <init>(); }
+-keep class com.live.longmao.activity.AccountActivity { <init>(); }
+-keep class com.live.longmao.activity.RechargeActivity { <init>(); }
+-keep class com.live.longmao.activity.IncomeActivity { <init>(); }
+-keep class com.live.longmao.activity.RankActivity { <init>(); }
+-keep class com.live.longmao.activity.StoreActivity { <init>(); }
+-keep class com.live.longmao.activity.PersonReputationActivity { <init>(); }
+-keep class com.live.longmao.imageselector.MultiImageSelectorActivity { <init>(); }
+-keep class com.live.longmao.activity.SettingActivity { <init>(); }
+-keep class com.live.longmao.activity.TaskActivity { <init>(); }
+-keep class com.live.longmao.activity.BlacklistActivity { <init>(); }
+-keep class com.live.longmao.activity.ShippingAddressActivity { <init>(); }
+-keep class com.live.longmao.activity.AddAddressAtivity { <init>(); }
+-keep class com.live.longmao.activity.ConversionRecordActivity { <init>(); }
+-keep class com.live.longmao.activity.CheckInfoActivity { <init>(); }
+-keep class com.live.longmao.activity.CheckStoreActivity { <init>(); }
+-keep class com.live.longmao.activity.CityActivity { <init>(); }
+-keep class com.live.longmao.activity.ProfressionHobbiesActivity { <init>(); }
+-keep class com.live.longmao.views.LoginActivity { <init>(); }
+-keep class com.live.longmao.activity.RegisterActivity { <init>(); }
+-keep class com.live.longmao.activity.ReadyLiveActivity { <init>(); }
+-keep class com.live.longmao.activity.HostLiveActivity { <init>(); }
+-keep class com.live.longmao.activity.QuizSettingActivity { <init>(); }
+-keep class com.live.longmao.activity.BeanActivity { <init>(); }
+-keep class com.live.longmao.activity.ExchangeCentreActivity { <init>(); }
+-keep class com.live.longmao.activity.ServerActivity { <init>(); }
+-keep class com.live.longmao.activity.BindingZfbActivity { <init>(); }
+-keep class com.live.longmao.activity.PersonalIncomeActivity { <init>(); }
+-keep class com.live.longmao.activity.ExchangeLmbActivity { <init>(); }
+-keep class com.live.longmao.activity.ExchangeCoinActivity { <init>(); }
+-keep class com.live.longmao.activity.PersonEarningsActivity { <init>(); }
+-keep class com.live.longmao.activity.NoteAuthenticationActivity { <init>(); }
+-keep class com.live.longmao.activity.ExchangeRecordActivity { <init>(); }
+-keep class com.live.longmao.activity.PersonFansActivity { <init>(); }
+-keep class com.live.longmao.activity.GradeActivity { <init>(); }
+-keep class com.live.longmao.activity.VipMemberActivity { <init>(); }
+-keep class com.live.longmao.activity.MemberActivity { <init>(); }
+-keep class com.live.longmao.activity.PersonCoinActivity { <init>(); }
+-keep class com.live.longmao.activity.ZBRankActivity { <init>(); }
+-keep class com.live.longmao.activity.ProfressionActivity { <init>(); }
+-keep class com.live.longmao.activity.ZBURankActivity { <init>(); }
+-keep class com.live.longmao.activity.SplashActivity { <init>(); }
+-keep class com.live.longmao.activity.ForgetPasswordActivity { <init>(); }
+-keep class com.live.longmao.activity.ProfressionSigActivity { <init>(); }
+-keep class com.live.longmao.activity.person.PersonalCenterActivity { <init>(); }
+-keep class com.live.longmao.activity.person.ZBPersonActivity { <init>(); }
+-keep class com.live.longmao.activity.person.PersonEditActivity { <init>(); }
+-keep class com.live.longmao.activity.person.NewPersonAttentionActivity { <init>(); }
+-keep class com.live.longmao.activity.person.NewPersonFansActivity { <init>(); }
+-keep class com.live.longmao.activity.person.PersonRankActivity { <init>(); }
+-keep class com.live.longmao.activity.person.PersonEditPhoneActivity { <init>(); }
+-keep class com.live.longmao.webview.UserViewActivity { <init>(); }
+-keep class com.live.longmao.webview.ZBViewActivity { <init>(); }
+-keep class com.live.longmao.webview.GuessViewActivity { <init>(); }
+-keep class com.live.longmao.webview.AllViewActivity { <init>(); }
+-keep class com.live.longmao.activity.banner.BannerOneActivity { <init>(); }
+-keep class com.live.longmao.activity.banner.BannerTwoActivity { <init>(); }
+-keep class com.live.longmao.activity.person.SubmitImageActivity { <init>(); }
+-keep class com.tencent.qalsdk.service.QalService { <init>(); }
+-keep class com.tencent.qalsdk.QALBroadcastReceiver { <init>(); }
+-keep class com.tencent.qalsdk.core.NetConnInfoCenter { <init>(); }
+-keep class com.live.longmao.wxapi.WXEntryActivity { <init>(); }
+-keep class com.mob.tools.MobUIShell { <init>(); }
+-keep class com.amap.api.location.APSService { <init>(); }
+-keep class com.igexin.sdk.PushService { <init>(); }
+-keep class com.igexin.sdk.PushServiceUser { <init>(); }
+-keep class com.igexin.sdk.PushReceiver { <init>(); }
+-keep class com.igexin.sdk.PushManagerReceiver { <init>(); }
+-keep class com.igexin.sdk.PushActivity { <init>(); }
+-keep class com.igexin.sdk.GActivity { <init>(); }
+-keep class com.igexin.download.DownloadService { <init>(); }
+-keep class com.igexin.download.DownloadReceiver { <init>(); }
+-keep class com.igexin.download.DownloadProvider { <init>(); }
+-keep class com.live.longmao.GetuiReceiver { <init>(); }
+-keep class com.live.longmao.service.MyService { <init>(); }
+-keep class com.live.longmao.service.ForgetPasswordService { <init>(); }
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(); }
+-keep class com.alipay.sdk.auth.AuthActivity { <init>(); }
+-keep class com.pingplusplus.android.PaymentActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

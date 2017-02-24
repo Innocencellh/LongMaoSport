@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MagicProgressBar">
+        <attr name="mpb_percent" format="float" />
+        <attr name="mpb_fill_color" format="color" />
+        <attr name="mpb_background_color" format="color" />
+        <attr name="mpb_flat" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="PullZoomView">
+        <attr name="zoomview" format="reference" />
+        <attr name="headview" format="reference" />
+        <attr name="contentview" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DropDownStyle">
+        <attr name="gift_count" format="integer" />
+        <attr name="gift_speed" format="integer" />
+        <attr name="gift_max_size" format="float" />
+        <attr name="gift_min_size" format="float" />
+        <attr name="gift_background" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="LoadingView">
+
+        <attr name="loadingText" format="string"/>
+        <attr name="loadingTextAppearance" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="LikeButton">
+        <attr name="icon_type" format="string" />
+        <attr name="icon_size" format="dimension|reference"/>
+        <attr name="like_drawable" format="reference" />
+        <attr name="unlike_drawable" format="reference" />
+        <attr name="dots_primary_color" format="color|reference" />
+        <attr name="dots_secondary_color" format="color|reference" />
+        <attr name="circle_start_color" format="color|reference" />
+        <attr name="circle_end_color" format="color|reference" />
+        <attr name="liked" format="boolean"/>
+        <attr name="is_enabled" format="boolean"/>
+        <attr name="anim_scale_factor" format="float"/>
+    </declare-styleable>
+
+    <!-- 标题模板自定义属性 -->
+    <declare-styleable name="TemplateTitle">
+        <!-- 标题文案 -->
+        <attr name="titleText" format="string"/>
+        <!-- 是否有back按钮 -->
+        <attr name="canBack" format="boolean"/>
+        <!-- back按钮文案 -->
+        <attr name="backText" format="string"/>
+        <!-- 右侧更多功能按钮文字 -->
+        <attr name="moreText" format="string"/>
+    </declare-styleable>
+
+    <!-- 条形控制控件自定义属性 -->
+    <declare-styleable name="LineControllerView">
+        <!-- 名称 -->
+        <attr name="name" format="string"/>
+        <!-- 内容或当前状态 -->
+        <attr name="content" format="string"/>
+        <!-- 是否是列表中最后一个 -->
+        <attr name="isBottom" format="boolean"/>
+        <!-- 是否可以跳转 -->
+        <attr name="canNav" format="boolean"/>
+        <!-- 是否是开关 -->
+        <attr name="isSwitch" format="boolean"/>
+    </declare-styleable>
+    <!-- 飘星自定义属性 -->
+    <declare-styleable name="HeartLayout">
+        <attr name="initX" format="dimension" />
+        <attr name="initY" format="dimension" />
+        <attr name="xRand" format="dimension" />
+        <attr name="animLengthRand" format="dimension" />
+        <attr name="xPointFactor" format="dimension" />
+        <attr name="animLength" format="dimension" />
+        <attr name="heart_width" format="dimension" />
+        <attr name="heart_height" format="dimension" />
+        <attr name="bezierFactor" format="integer" />
+        <attr name="anim_duration" format="integer" />
+    </declare-styleable>
+   <!-- 个人中心自定义属性-->
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+   <!-- 进度条-->
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpb_progress" format="integer" />
+        <attr name="cpb_progressbar_color" format="color" />
+        <attr name="cpb_background_progressbar_color" format="color" />
+        <attr name="cpb_progressbar_width" format="dimension" />
+        <attr name="cpb_background_progressbar_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="wheelview">
+    <attr name="gravity">
+        <enum name="center" value="17"/>
+        <enum name="left" value="3"/>
+        <enum name="right" value="5"/>
+    </attr>
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColorOut" format="color"/>
+    <attr name="textColorCenter" format="color"/>
+    <attr name="dividerColor" format="color"/>
+</declare-styleable>
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr name="indicator_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimeTextView">
+    </declare-styleable>
+
+</resources>

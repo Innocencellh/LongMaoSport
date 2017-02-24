@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_symbols.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\xml\\cmbkb_symbols.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_qwerty.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\xml\\cmbkb_qwerty.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_with_change.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\xml\\cmbkb_number_with_change.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_with_x.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\xml\\cmbkb_number_with_x.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_symbols.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\xml\\cmbkb_number_symbols.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_with_dot.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\xml\\cmbkb_number_with_dot.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\xml\\cmbkb_number.xml"
+    }
+]

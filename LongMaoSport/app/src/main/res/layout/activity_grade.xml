@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_grade"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@mipmap/icon_red_diamond"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LV.20"
+        android:layout_below="@+id/iv_grade"
+        android:textColor="@color/title_color"
+        android:layout_centerHorizontal="true" />
+
+    <com.live.longmao.view.MagicProgressBar
+        android:id="@+id/pb_magic"
+        android:layout_below="@+id/tv_grade"
+        style="@style/demo_progress_bar"
+        android:layout_height="15dp"
+        app:mpb_background_color="@color/gray"
+        app:mpb_fill_color="@color/title_color"
+        app:mpb_flat="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@+id/pb_magic"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/title_color"
+        android:text="不想等待，礼物刷起来，刷得越多，升级越快"/>
+
+</RelativeLayout>

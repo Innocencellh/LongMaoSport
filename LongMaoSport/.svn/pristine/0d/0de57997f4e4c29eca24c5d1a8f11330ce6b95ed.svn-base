@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="E:\zuixinlongmaoAPP\NewLongMao\pingpp\build\intermediates\bundles\debug\assets"><file name="data.bin" path="E:\zuixinlongmaoAPP\NewLongMao\pingpp\build\intermediates\bundles\debug\assets\data.bin"/><file name="pingpp_web.html" path="E:\zuixinlongmaoAPP\NewLongMao\pingpp\build\intermediates\bundles\debug\assets\pingpp_web.html"/></source></dataSet><dataSet config="main"><source path="E:\zuixinlongmaoAPP\NewLongMao\pingpp\src\androidTest\assets"/></dataSet></merger>

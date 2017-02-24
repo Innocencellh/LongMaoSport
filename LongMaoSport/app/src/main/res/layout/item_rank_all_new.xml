@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_hand"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_rank_two"
+            android:src="@mipmap/icon_star_bg"
+            app:civ_border_color="@color/title_color"
+            app:civ_border_width="@dimen/person_one" />
+
+        <ImageView
+            android:id="@+id/icon_crown_new_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ll"
+            android:layout_toStartOf="@+id/ll"
+            android:src="@mipmap/icon_crown_new_two"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/icon_crown_new_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ll"
+            android:layout_toStartOf="@+id/ll"
+            android:src="@mipmap/icon_crown_new_three"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/iv"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/iv_hand"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大帅哥"
+                android:textSize="@dimen/h6" />
+
+            <ImageView
+                android:id="@+id/img_sex"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:src="@mipmap/icon_person_girl" />
+
+            <RelativeLayout
+                android:layout_width="28dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/copper_medal_bg"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_copper_medal"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="2dp"
+                    android:src="@mipmap/icon_copper_medal" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="3dp"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical">
+
+            <TextView
+                android:id="@+id/tv_kll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/h6"
+                android:layout_marginRight="10dp"
+                android:textColor="#777777"
+                android:text="贡献：5000卡" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/rank_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:text="4"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_rank_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/icon_rank_two"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_rank_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/icon_rank_three"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/line_color" />
+</RelativeLayout>

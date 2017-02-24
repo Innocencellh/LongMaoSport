@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_person_attention"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="关注 TA"
+            android:textColor="#24c789" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text="职业"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="主播"
+                    android:textColor="#7d7d7d"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text="城市"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="浙江省  杭州市"
+                    android:textColor="#7d7d7d"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text="兴趣爱好"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="唱歌  跳舞  钓鱼"
+                    android:textColor="#7d7d7d"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text="简介"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="我是大帅哥，没什么说的就是帅我是大帅哥，没什么说的就是帅我是大帅哥，没什么说的就是帅"
+                    android:textColor="#7d7d7d"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_person_zb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

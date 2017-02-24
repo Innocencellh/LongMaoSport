@@ -1,0 +1,1182 @@
+[
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_gift_car.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_gift_car.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_personal_income.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_personal_income.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_exchange_record.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_exchange_record.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_reinfo.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_reinfo.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\members_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\members_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_person_earning.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_person_earning.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_bean_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_bean_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_test.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_exchange_earnings.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_exchange_earnings.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\welcome_fragment02.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\welcome_fragment02.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_bean_to_coin.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_bean_to_coin.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\invite_dialog.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\invite_dialog.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_grade.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_grade.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_member.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_member.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_separator.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_bzb_jingcai_jiesuan.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_bzb_jingcai_jiesuan.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_web_view_zb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_web_view_zb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item_folder.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\list_item_folder.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\cell_grid_movement.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\cell_grid_movement.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_guessing_anchor.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_guessing_anchor.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\publishfragment_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\publishfragment_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_login.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\title.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\frament_person_zb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\frament_person_zb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_see_hot.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_see_hot.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_rank_three.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_rank_three.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dlg_live_function.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dlg_live_function.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\ply_ping.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\ply_ping.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\header_textview.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\header_textview.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_info.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_rank_all_new.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_rank_all_new.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_find.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_find.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_living.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_living.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_register.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_shipping_address.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_shipping_address.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_coin_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_coin_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_reputation.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_reputation.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_store.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_store.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_reputation_record.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_reputation_record.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\iitem_person_attention.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\iitem_person_attention.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_undefined.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_undefined.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_zb_gurss_ayes.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_zb_gurss_ayes.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\home_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\home_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_not_living_title.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_not_living_title.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_publish_text.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_publish_text.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_follow_tittle.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_follow_tittle.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_task.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_person_zb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_person_zb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_exchange_centre.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_exchange_centre.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_view_detail.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\layout_view_detail.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_reputation_one.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_reputation_one.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_fireworks.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_fireworks.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_uk_all_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_uk_all_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_live.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_live.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_live_detail.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_live_detail.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_reputation_record.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_reputation_record.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_menu_item_action_area.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_attestation.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_attestation.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_person_edit_phone.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_person_edit_phone.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\live_info_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\live_info_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_not_living.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_not_living.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_exchange_centre.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_exchange_centre.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_zf.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_zf.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab_item_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\tab_item_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_black.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_black.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_city.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_city.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_near.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_near.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\horizontal_list_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\horizontal_list_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_end_live.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_end_live.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_all_uk_yazhu.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_all_uk_yazhu.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\welcome_fragment5.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\welcome_fragment5.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_reaccount.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_reaccount.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_a_test.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_a_test.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_multi_image.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_multi_image.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_recharge.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_recharge.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_submitimage.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_submitimage.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\invite_views.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\invite_views.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_recharge_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_recharge_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_exchange_earnings.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_exchange_earnings.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item_camera.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\list_item_camera.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_tittle_earning.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_tittle_earning.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_grade_pager.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_grade_pager.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dlg_load.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dlg_load.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\banner.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\banner.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dlg_live_player.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dlg_live_player.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_new_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_new_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_basepickerview.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\layout_basepickerview.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_zb_person_all.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_zb_person_all.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_host_live.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_host_live.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\zoom_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\zoom_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\cell_recyclerview_live_watcher.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\cell_recyclerview_live_watcher.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_live_msg.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_live_msg.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_banner_one.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_banner_one.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_web_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_web_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_chatmsg.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_chatmsg.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab_indictator.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\tab_indictator.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\pic_choose.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\pic_choose.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_icon.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_direct_seeding.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_direct_seeding.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_infomation.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_infomation.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_income.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_income.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_roadster.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_roadster.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_test_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_test_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_rank_all.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_rank_all.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_conversion_record.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_conversion_record.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_dialogpager_img.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\view_dialogpager_img.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_exchange_lmb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_exchange_lmb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\adapter_gallery.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\adapter_gallery.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_conversion_record.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_conversion_record.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\exchange_coin.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\exchange_coin.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_pay.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_pay.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item_image.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\list_item_image.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_person_attention.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_person_attention.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_vip_member.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_vip_member.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_new_person_attention.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_new_person_attention.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_exchange_lmb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_exchange_lmb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\see_hot_banner.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\see_hot_banner.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_bzb_all_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_bzb_all_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\content_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\content_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_living_title.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_living_title.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_person_edit.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_person_edit.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_note_authentication.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_note_authentication.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\qav_video_layer_ui.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\qav_video_layer_ui.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_wx.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_wx.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_service.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_service.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_yh_gurss_yes.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_yh_gurss_yes.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\member_bottom_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\member_bottom_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_person_share.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_person_share.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\cmbkeyboard.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\layout\\cmbkeyboard.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar_include.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\head_up_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\head_up_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\qav_video_layer_ui_host.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\qav_video_layer_ui_host.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_zb_gurss_byes.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_zb_gurss_byes.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_bzb_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_bzb_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_grid_address.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_grid_address.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_guessing_answer.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_guessing_answer.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_live_over.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_live_over.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_seeing_living.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_seeing_living.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_live_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_live_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\liveframent_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\liveframent_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_prompt.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_prompt.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_newshow.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_newshow.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_set.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_set.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dlg_info.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dlg_info.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_yh_all_guess_reading.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_yh_all_guess_reading.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\clip_dialog.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\clip_dialog.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_flying_house.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_flying_house.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_zb_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_zb_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_publishfragment.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_publishfragment.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_recharge_one.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_recharge_one.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_bean.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_bean.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\input_text_dialog.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\input_text_dialog.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_edit_profile.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_red_rain.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_red_rain.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_activity.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_activity.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_personal.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_personal.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\picture_info.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\picture_info.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\exchange_centre.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\exchange_centre.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\welcome_fragment03.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\welcome_fragment03.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\push_dialog_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\push_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_default.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_default.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_live_classification.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_live_classification.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_profression.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_profression.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\pickerview_time.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\pickerview_time.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_da_boat.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_da_boat.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_check_store.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_check_store.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dlg_live_gift.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dlg_live_gift.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\qav_beauty_setting.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\qav_beauty_setting.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\big_gift_tittle.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\big_gift_tittle.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_binding_zfb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_binding_zfb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\frament_person_photo_zb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\frament_person_photo_zb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_guessing_bet.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_guessing_bet.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\welcome_fragment01.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\welcome_fragment01.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_banner_two.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_banner_two.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_zb_person.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_zb_person.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_pingpp_payment.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\layout\\activity_pingpp_payment.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\adapter_recharge.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\adapter_recharge.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\members_item_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\members_item_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_info_new.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_info_new.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_live_publish.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_live_publish.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_check_store.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\adapter_item_check_store.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_bean.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_bean.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_coin.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_coin.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\listview_header.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\listview_header.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_live_classification.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_live_classification.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\login_dialog.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\login_dialog.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_yh_guessing_reading.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_yh_guessing_reading.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dlg_photo_operation.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dlg_photo_operation.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_independent_register.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_independent_register.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_base.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_yh_guess_no.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_yh_guess_no.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_check_store.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_check_store.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_account.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_rank_one_new.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_rank_one_new.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_text.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_rank_list.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_rank_list.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_headview.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_headview.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_viewpager.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_viewpager.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_rank_one.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_rank_one.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\cell_live_barrage.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\cell_live_barrage.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_yh_guess_all.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_yh_guess_all.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_actionsheet.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\view_actionsheet.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_xin_dong.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_xin_dong.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_quiz_setting.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_quiz_setting.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\host_info_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\host_info_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_viewpager.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\convenientbanner\\2.0.5\\res\\layout\\include_viewpager.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_live.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_live.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_pickerview_topbar.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_address.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_add_address.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_near_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_near_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_coin_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_coin_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\add_more_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\add_more_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_independent_login.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_independent_login.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_line_controller.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\view_line_controller.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\video_member_bottom_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\video_member_bottom_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fargment_reputation_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fargment_reputation_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_shopping_address.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_shopping_address.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_head.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\pull_to_refresh_head.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab_content.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\tab_content.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_exchange_lmb.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_exchange_lmb.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_zb_all_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_zb_all_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_rank_two.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_rank_two.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_vip_dialog.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\view_vip_dialog.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_recharge_a.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_recharge_a.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_person_attention.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_person_attention.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\cell_grid_gift.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\cell_grid_gift.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_alertdialog.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\view_alertdialog.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_reputation_exchange.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_reputation_exchange.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\ly_periscope.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\ly_periscope.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\listview_footer.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\listview_footer.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_check_info.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_check_info.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_all_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_all_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_live_report.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\dialog_live_report.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_bzb_all_jingcai_jiesuan.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_bzb_all_jingcai_jiesuan.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\host_bottom_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\host_bottom_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\pickerview_options.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\pickerview_options.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_edit.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_edit.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_my_photo_list.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\item_my_photo_list.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\profileframent_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\profileframent_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_all_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\fragment_all_in.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_yh_yazhu.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_yh_yazhu.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\cell_live_gift.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\cell_live_gift.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_uk_jing_cai.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_uk_jing_cai.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\a_item_list_view.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\a_item_list_view.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_web_view_guess.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\layout\\activity_web_view_guess.xml"
+    }
+]

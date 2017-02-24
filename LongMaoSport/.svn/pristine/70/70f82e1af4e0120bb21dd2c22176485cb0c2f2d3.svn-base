@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/exchange_iv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_publish_fragment_height_iv"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon_star_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_publish_fragment_height"
+        android:layout_above="@+id/exchange_tv"
+        android:background="#60111111"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还剩 1000 件"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/publish_fragment_margin_right"
+            android:textSize="@dimen/h6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_green_big_bean"
+            android:layout_marginLeft="@dimen/publish_fragment_margin_left"
+            android:layout_marginRight="@dimen/publish_fragment_margin_right"
+            android:layout_centerVertical="true"
+            android:text="100"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h6" />
+
+        <ImageView
+            android:id="@+id/iv_green_big_bean"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/publish_fragment_margin_right"
+            android:src="@mipmap/icon_small_bean" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/exchange_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exchange_iv"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:padding="@dimen/drawable_padding_margin"
+        android:singleLine="true"
+        android:text="龙猫龙猫！喵喵喵喵喵喵喵喵喵喵喵喵！！！"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/h6" />
+</RelativeLayout>

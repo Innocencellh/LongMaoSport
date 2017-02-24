@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/dlg_whole"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/tv_layout"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/icon_live_function_bg">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/ll_flashlight"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_flashlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_live_flashlight_un"/>
+                <TextView
+                    android:id="@+id/tv_flashlight"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h6"
+                    android:text="闪光灯关"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_camera"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_live_camera_un"/>
+                <TextView
+                    android:id="@+id/tv_camera"
+                    android:textColor="@color/white"
+                    android:text="前置摄像头"
+                    android:textSize="@dimen/h6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:id="@+id/ll_beauty"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_beauty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_live_beauty_un"/>
+                <TextView
+                    android:id="@+id/tv_beauty"
+                    android:textColor="@color/white"
+                    android:text="美颜关"
+                    android:textSize="@dimen/h6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:background="#111">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user_guessing_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:src="@mipmap/icon_star_bg"
+            app:civ_border_color="@color/title_color"
+            app:civ_border_width="@dimen/person_one" />
+
+        <TextView
+            android:id="@+id/tv_user_guessing_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_user_guessing_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="大橙子"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_user_guessing_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_guessing_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:text="硬币是正面还是返回房间是开发环境案开始了回复对方会解散了反面？"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_guessing_tittle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="本轮将在"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_user_guessing_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9:43"
+                android:textColor="@color/btn_red"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="秒后封盘"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="下注池"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <com.live.longmao.view.MagicProgressBar
+                android:id="@+id/pb_magic"
+                android:layout_width="200dp"
+                android:layout_height="10dp"
+                app:mpb_background_color="@color/gray"
+                app:mpb_fill_color="@color/title_color"
+                app:mpb_flat="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="10000"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:alpha="0.5"
+                android:background="#111">
+
+                <TextView
+                    android:id="@+id/tv_a_tittle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="A.正面"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:text="赔率1：1"
+                    android:textColor="#de8b3d" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:alpha="0.5"
+                android:background="#111">
+
+                <TextView
+                    android:id="@+id/tv_b_tittle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="B.反面"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:text="赔率1：1"
+                    android:textColor="#de8b3d" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_03"
+        android:layout_marginTop="2dp"
+        android:alpha="0.5"
+        android:background="#111"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="8dp"
+        android:text="下注金额"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_04"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_01"
+        android:layout_marginTop="2dp"
+        android:alpha="0.5"
+        android:background="#111"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_jianhao" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/icon_xiazhu_kuang"
+            android:numeric="integer"
+            android:textColor="#de8b3d" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_jiahao" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:src="@mipmap/icon_100_bean" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_1000_bean" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_1w_bean" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_10w_bean" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_04"
+        android:alpha="0.5"
+        android:background="#111">
+
+        <LinearLayout
+            android:id="@+id/ll_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="90000"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="充值"
+                android:textColor="#25bf76" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_guess"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/ll_05"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_select_bg"
+            android:text="开始投注"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_guess"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="竞猜即同意《龙猫竞猜协议》"
+            android:textColor="#ededed" />
+    </RelativeLayout>
+</RelativeLayout>

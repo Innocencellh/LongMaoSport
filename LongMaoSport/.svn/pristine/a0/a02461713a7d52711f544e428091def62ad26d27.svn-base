@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/member_bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/message_input"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@mipmap/icon_live_message"
+        />
+    <!--<TextView
+        android:id="@+id/tv_test_guss"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/tv_guss"
+        android:text="练习"
+        android:gravity="center"
+        android:background="@mipmap/icon_live_guss"
+        />-->
+    <TextView
+        android:id="@+id/tv_guss"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:background="@mipmap/icon_live_guss"
+        />
+
+    <TextView
+        android:id="@+id/tv_guss_pk"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:background="@mipmap/icon_pk" />
+    <TextView
+        android:id="@+id/clean_screen"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/icon_live_full"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_gift"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/icon_live_gift"
+        />
+    <!--<TextView-->
+    <!--android:id="@+id/member_send_good"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="15dp"-->
+    <!--android:visibility="gone"-->
+    <!--android:background="@mipmap/icon_like_n"-->
+    <!--/>-->
+
+</RelativeLayout>

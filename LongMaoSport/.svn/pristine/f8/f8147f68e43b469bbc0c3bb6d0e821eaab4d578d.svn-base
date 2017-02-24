@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/controll_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/live_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/big_gift_tittle"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/rl_head"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/push_btn"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/icon_push_stream"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/video_interact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="60dp"
+            android:background="@mipmap/icon_video_interact"
+            android:visibility="gone" />
+
+
+        <ListView
+            android:id="@+id/lv_guess_coll"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rl_head"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/shape_edit_record"
+            android:visibility="gone">
+
+        </ListView>
+
+        <ImageView
+            android:id="@+id/iv_guess_hand"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rl_head"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/icon_guess_hand">
+
+        </ImageView>
+
+        <RelativeLayout
+            android:id="@+id/rl_gift"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_above="@+id/rl_msg_listview"
+            android:layout_marginBottom="65dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_lv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/rl_head"
+            android:layout_marginRight="85dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_barrage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_above="@+id/rl_msg_listview">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_msg_listview"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/im_msg_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                android:scrollbarStyle="outsideOverlay" />
+        </RelativeLayout>
+
+
+        <include
+            layout="@layout/member_bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp" />
+
+
+        <include
+            layout="@layout/video_member_bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp" />
+
+        <include
+            layout="@layout/host_bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp" />
+
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginBottom="10dp">-->
+
+        <!--<com.live.longmao.views.customviews.HeartLayout-->
+        <!--android:id="@+id/heart_layout"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="-10dp"-->
+        <!--android:focusable="true" />-->
+        <!--</RelativeLayout>-->
+    </RelativeLayout>
+
+    <include
+        layout="@layout/qav_beauty_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <include
+        layout="@layout/input_text_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <include
+        layout="@layout/invite_views"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" />
+
+
+    <TextView
+        android:id="@+id/normal_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/icon_live_exit_full"
+        android:onClick="onClick"
+        android:visibility="invisible" />
+</RelativeLayout>

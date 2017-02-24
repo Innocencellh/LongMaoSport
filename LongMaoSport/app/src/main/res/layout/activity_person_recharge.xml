@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/activity_base_title_rl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/title_color"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="充值龙猫币"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:typeface="serif" />
+
+                <ImageButton
+                    android:id="@+id/iv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:src="@mipmap/arrow_left" />
+
+
+                <TextView
+                    android:id="@+id/tv_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="龙猫币余额"
+                    android:textColor="#a2a2a2"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/lm_bean_yuer_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text=""
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#5b4e62"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <include
+                layout="@layout/activity_zb_person_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/id_page_vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/include_pay" />
+
+</LinearLayout>

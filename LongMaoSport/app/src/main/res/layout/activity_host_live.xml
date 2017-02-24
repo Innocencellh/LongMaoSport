@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/av_video_layer_ui"
+        layout="@layout/qav_video_layer_ui_host"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/img_gaosi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_ready_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.live.camera.preview.CameraSurfaceView
+            android:id="@+id/camera_surfaceview"
+            android:layout_width="0dip"
+            android:layout_height="0dip" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ready_live"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/activity_base_title_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/txt_direct_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@mipmap/launch_map_on"
+                android:gravity="center"
+                android:paddingRight="20dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/h8" />
+
+            <ImageView
+                android:id="@+id/img_close"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@mipmap/launch_close" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@null"
+            android:hint="O(∩_∩)O~~  你想要直播点什么"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#80ffffff" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="邀请朋友捧场"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=".................................................................."
+            android:textColor="#80ffffff" />
+
+        <LinearLayout
+            android:id="@+id/share_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/icon_qq_un" />
+
+            <ImageView
+                android:id="@+id/img_wechat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/icon_wechat_un" />
+
+            <ImageView
+                android:id="@+id/img_pyq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/icon_pyq_un" />
+
+            <ImageView
+                android:id="@+id/img_weibo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/icon_weibo_un" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_start_live"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btn_login_select"
+            android:text="开始直播"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开启直播代表同意"
+                android:textColor="#cccccc" />
+
+            <TextView
+                android:id="@+id/tv_zb_xieyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《主播用户协议》"
+                android:textColor="#24c789" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

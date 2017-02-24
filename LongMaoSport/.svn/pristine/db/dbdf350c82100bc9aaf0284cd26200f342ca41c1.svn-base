@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:src="@mipmap/icon_service"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="兑换收益的相关信息"
+        android:textColor="@color/title_color"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="请咨询龙猫直播微信公众号："
+        android:textColor="@color/title_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:text="longmaosports"
+        android:textColor="@color/title_color"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 帮助中心</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    帮助中心
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <h3>常见问题</h3>
+    <ul class="pblist">
+        <li><a href="help-account.html"><span><img src="images/userico.png" width="28px"></span>账号</a></li>
+        <li><a href="help-live.html"><span><img src="images/videoico.png" width="30px"></span>直播</a></li>
+		<li><a href="help-watch.html"><span><img src="images/watchico.png" width="30px"></span>观看</a></li>
+				<li><a href="help-guess.html"><span><img src="images/guessico.png" width="30px"></span>竞猜</a></li>
+        <li><a href="help-recharge.html"><span><img src="images/czico.png" width="30px"></span>充值与兑换</a></li>
+        <li><a href="help-garde.html"><span><img src="images/djico.png" width="30px"></span>经验与等级</a></li>
+        <li><a href="help-gift.html"><span><img src="images/dhico.png" width="30px"></span>兑换礼物</a></li>
+        <li><a href="help-income.html"><span><img src="images/syico.png" width="30px"></span>收益</a></li>
+        <li><a href="help-follow.html"><span><img src="images/gzico.png" width="30px"></span>关注</a></li>
+        <li><a href="help-ban.html"><span><img src="images/ssico.png" width="35px"></span>封号</a></li>
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/iv_exchange_see"
+            android:layout_width="@dimen/item_exchange_width"
+            android:layout_height="@dimen/item_exchange_height"
+            android:layout_marginLeft="@dimen/item_exchange_left"
+            android:layout_marginRight="@dimen/item_exchange_right"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/icon_star_bg" />
+
+
+        <TextView
+            android:id="@+id/tv_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_exchange_see"
+            android:layout_toEndOf="@+id/iv_exchange_see"
+            android:layout_toRightOf="@+id/iv_exchange_see"
+            android:text="好处的零食大礼包三大影帝"
+            android:textSize="@dimen/item_exchange_text_size" />
+
+
+        <ImageView
+            android:id="@+id/iv_grab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_exchange_see"
+            android:layout_toRightOf="@+id/iv_exchange_see"
+            android:src="@mipmap/icon_grab" />
+
+        <ImageView
+            android:id="@+id/iv_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toEndOf="@+id/iv_grab"
+            android:layout_toRightOf="@+id/iv_grab"
+            android:src="@mipmap/icon_exchange" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_bean"
+            android:layout_toEndOf="@+id/iv_exchange_see"
+            android:layout_toRightOf="@+id/iv_exchange_see"
+            android:text="零食"
+            android:textColor="#BBBBBBBB"
+            android:textSize="@dimen/item_exchange_centre_text_size" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_name"
+            android:layout_toEndOf="@+id/iv_exchange"
+            android:layout_toRightOf="@+id/iv_exchange"
+            android:text="剩余100件"
+            android:textColor="#BBBBBBBB"
+            android:textSize="@dimen/item_exchange_centre_text_size" />
+
+        <TextView
+            android:id="@+id/iv_bean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_exchange_see"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/icon_small_bean"
+            android:gravity="right"
+            android:text="500"
+            android:textSize="@dimen/item_exchange_centre_text_size"
+            android:textColor="@color/btn_red" />
+    </RelativeLayout>
+</RelativeLayout>

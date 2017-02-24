@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/head_bg"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="30dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="2dp"
+            android:background="@mipmap/rank_1" />
+
+        <TextView
+            android:id="@+id/tv_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="bi：我最"
+            android:textColor="@color/light_green_color"
+            android:textSize="@dimen/h6" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_got_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+        android:paddingTop="5dp">
+
+
+        <TextView
+            android:id="@+id/tv_context1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="bi：我最"
+            android:textColor="@color/light_green_color"
+            android:textSize="@dimen/h6" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

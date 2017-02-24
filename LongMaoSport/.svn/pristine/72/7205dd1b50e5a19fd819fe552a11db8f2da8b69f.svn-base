@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guess_bg">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user_guessing_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:src="@mipmap/icon_star_bg"
+            app:civ_border_color="@color/title_color"
+            app:civ_border_width="@dimen/person_one" />
+
+        <TextView
+            android:id="@+id/tv_user_guessing_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_user_guessing_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="大橙子"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_user_guessing_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_guessing_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:text="硬币是正面还是返回房间是开发环境案开始了回复对方会解散了反面？"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_guessing_tittle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="本轮将在"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_user_guessing_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9:43"
+                android:textColor="#eb7216"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="秒后封盘"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_02"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_below="@+id/ll_01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="下注池"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+            <com.live.longmao.view.MagicProgressBar
+                android:id="@+id/pb_magic"
+                android:layout_width="180dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                app:mpb_background_color="#66947c"
+                app:mpb_fill_color="#24c789"
+                app:mpb_flat="true" />
+
+            <TextView
+                android:id="@+id/tv_uk_yazhudialog_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="100"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_01"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:alpha="0.5"
+            android:background="#111"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_can"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:button="@drawable/radiobutton"
+                android:padding="10dp"
+                android:text="能"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/rb_no_can"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:button="@drawable/radiobutton"
+                android:padding="10dp"
+                android:text="不能"
+                android:gravity="center_vertical"
+                android:textColor="@color/white" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_can"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:text="赔率1：1"
+            android:textColor="#eb7216" />
+
+        <TextView
+            android:id="@+id/tv_no_can"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_can"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:padding="10dp"
+            android:text="赔率1：1"
+            android:textColor="#eb7216" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/tv_can"
+            android:alpha="0.1"
+            android:background="#fff" />
+
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:alpha="0.5"
+             android:background="#111"
+             android:visibility="gone">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginRight="15dp"
+                 android:layout_marginTop="10dp"
+                 android:gravity="right"
+                 android:text="无正确选项？判定为流局"
+                 android:textColor="#fff" />
+         </LinearLayout>-->
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_03"
+        android:layout_marginTop="2dp"
+        android:alpha="0.5"
+        android:background="#111"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="8dp"
+        android:text="下注金额"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_04"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_01"
+        android:layout_marginTop="2dp"
+        android:alpha="0.5"
+        android:background="#111"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_zb_jianhao"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/icon_jianhao" />
+
+        <TextView
+            android:id="@+id/tv_zb_numbean"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:maxLines="1"
+            android:numeric="integer"
+            android:text="100"
+            android:textColor="#de8b3d"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_zb_jiahao"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="2dp"
+            android:src="@mipmap/icon_jiahao" />
+
+        <ImageView
+            android:id="@+id/iv_yes100_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/icon_100_bean"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_no100_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/icon_no100_bean" />
+
+        <ImageView
+            android:id="@+id/iv_yes1000_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="7dp"
+            android:src="@mipmap/icon_1000_bean"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_no1000_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="7dp"
+            android:src="@mipmap/icon_no1000_bean" />
+
+        <ImageView
+            android:id="@+id/iv_yes1w_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="7dp"
+            android:src="@mipmap/icon_1w_bean"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_no1w_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="7dp"
+            android:src="@mipmap/icon_no1w_bean" />
+
+        <ImageView
+            android:id="@+id/iv_yes10w_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="7dp"
+            android:src="@mipmap/icon_10w_bean"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_no10w_bean"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="7dp"
+            android:src="@mipmap/icon_no10w_bean" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_04"
+        android:background="@drawable/guess_bottom_bg">
+
+        <LinearLayout
+            android:id="@+id/ll_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_yh_guess_bean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="90000"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="充值"
+                android:textColor="#25bf76" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_zb_guess"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/ll_05"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_select_bg"
+            android:text="开始投注"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_zb_guess"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="竞猜即同意《龙猫竞猜协议》"
+            android:textColor="#ededed" />
+    </RelativeLayout>
+</RelativeLayout>

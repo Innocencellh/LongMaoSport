@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:text="当前手机号："
+            android:textColor="#8e8e8e"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textColor="#606060"
+            android:text="135****4556"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_base_title_rl"
+        android:gravity="center"
+        android:padding="10dp"
+        android:weightSum="4">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/modification_back"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/icon_phone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@mipmap/icon_modification_phone" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/icon_phone"
+                android:background="@color/title_color" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="47dp"
+                android:background="@null"
+                android:editable="true"
+                android:hint="@string/login_phone_hint"
+                android:maxLines="1"
+                android:numeric="integer"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:textColor="@color/title_color"
+                android:textColorHint="#a3a3a3"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@mipmap/icon_register_back"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_getCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/modification_back"
+            android:text="获取验证码"
+            android:textColor="#8e8e8e"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_no_getCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/code_back"
+            android:text="获取验证码"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_phone"
+        android:layout_margin="10dp"
+        android:background="@drawable/modification_back"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/icon_code"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/icon_modification_password" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/icon_code"
+            android:background="@color/title_color" />
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="47dp"
+            android:background="@null"
+            android:editable="true"
+            android:hint="验证码"
+            android:maxLines="1"
+            android:numeric="integer"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:textColor="@color/title_color"
+            android:textColorHint="#a3a3a3"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_no_register"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/rl_pwd"
+        android:layout_margin="10dp"
+        android:background="@drawable/code_green"
+        android:text="更换手机号"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h8" />
+
+
+</LinearLayout>

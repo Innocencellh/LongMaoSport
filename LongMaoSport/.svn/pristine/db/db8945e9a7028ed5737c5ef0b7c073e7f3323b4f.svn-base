@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/dlg_whole"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/r2" />
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gift_bg"
+            android:paddingLeft="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_money"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="充值："
+                    android:textColor="@color/light_green_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tv1"
+                    android:drawablePadding="3dp"
+                    android:text="95479547"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/img_money"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tv_money"
+                    android:background="@mipmap/icon_big_money" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img_money"
+                    android:src="@mipmap/icon_right_green" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/giveBt"
+                android:layout_width="85dp"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/send_gift_bg"
+                android:layout_marginRight="5dp"
+                android:text="赠送"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/noGiveBt"
+                android:layout_width="85dp"
+                android:layout_height="38dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/back"
+                android:text="已赠送"
+                android:textColor="#111"
+                android:visibility="gone"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <com.live.longmao.gifdlg.EmotionPanel
+            android:id="@+id/gift_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/r1"
+            android:background="@color/gift_bg"
+            android:orientation="vertical" />
+
+        <RelativeLayout
+            android:id="@+id/fireRl"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/anim_livegift_fire"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/countDownTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

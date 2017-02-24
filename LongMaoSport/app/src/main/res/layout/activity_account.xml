@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account_a"
+        android:background="@color/title_color">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/mon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_big_money" />
+
+            <TextView
+                android:id="@+id/money_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mon"
+                android:layout_centerVertical="true"
+                android:text="0"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff5a2"
+                android:textSize="@dimen/account_d" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/account_e"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/account_f"
+            android:layout_marginRight="@dimen/account_f"
+            android:layout_weight="1"
+            android:background="@color/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIP"
+            android:textSize="@dimen/account_g" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/account_f"
+            android:layout_marginRight="@dimen/account_f"
+            android:layout_weight="1"
+            android:background="@color/back" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/account_e">
+
+            <ImageView
+                android:id="@+id/iv_vip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_vip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_vip"
+                android:text="开通VIP" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/iv_vip"
+                android:text="享受更多特权"
+                android:textColor="#bababa" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="17dp"
+                android:background="@mipmap/icon_iv_vip"
+                android:gravity="center"
+                android:padding="4dp"></LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/account_f"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/account_f"
+            android:layout_marginRight="@dimen/account_f"
+            android:layout_weight="1"
+            android:background="@color/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值"
+            android:textSize="@dimen/account_g" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/account_f"
+            android:layout_marginRight="@dimen/account_f"
+            android:layout_weight="1"
+            android:background="@color/back" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/account_f"
+        android:background="@color/white"
+        android:padding="@dimen/account_f">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtn_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/account_h"
+                android:button="@drawable/radiobutton"
+                android:checked="true"
+                android:paddingLeft="@dimen/account_i"
+                android:text="支付宝支付" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/account_j"
+                android:layout_marginRight="@dimen/account_h"
+                android:button="@drawable/radiobutton"
+                android:paddingLeft="@dimen/account_i"
+                android:text="微信支付" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/white" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_small_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="2000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:background="@mipmap/shape"
+            android:gravity="center"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="￥200"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="#eeeeee" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_small_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="2000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:background="@mipmap/shape"
+            android:gravity="center"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="￥200"
+
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="#eeeeee" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_small_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="2000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:background="@mipmap/shape"
+            android:gravity="center"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="￥200"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="#eeeeee" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_small_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="2000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:background="@mipmap/shape"
+            android:gravity="center"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="￥200"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="#eeeeee" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="2dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_small_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="2000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:background="@mipmap/shape"
+            android:gravity="center"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="￥200"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="如遇充值问题，点此联系客服"
+            android:textColor="#9170B6"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout></ScrollView>
+
+
+    </LinearLayout>

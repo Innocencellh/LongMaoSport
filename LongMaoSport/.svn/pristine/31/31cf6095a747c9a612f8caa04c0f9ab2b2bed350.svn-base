@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_follow_living"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_head"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/item_living_tittle_rl_padding_bottom"
+        android:paddingTop="@dimen/item_living_tittle_rl_padding_top">
+
+        <View
+            android:layout_width="@dimen/green_line_w"
+            android:layout_height="@dimen/green_line_h"
+            android:layout_centerVertical="true"
+            android:background="@color/title_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_living_tittle_margin_left_tv"
+            android:text="关注列表"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

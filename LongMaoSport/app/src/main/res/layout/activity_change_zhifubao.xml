@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/zhifubao_yuan_id"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:gravity="left|center"
+            android:text="原账号"
+            android:textColor="#222"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/zhifubao_yuan_id"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:gravity="left|center"
+            android:text="支付宝（3608***w@qq.com）"
+            android:textColor="#878787"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/change_zhifubao_id"
+            android:layout_below="@+id/zhifubao_yuan_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:hint="支付宝账号（手机号/邮箱）"
+            android:gravity="left|center"
+            android:textColor="@color/person_tips_color"
+            android:textColorHint="#bbbbbb"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:background="@drawable/et_money_select_bg"/>
+        <EditText
+            android:id="@+id/change_real_name"
+            android:layout_below="@id/change_zhifubao_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="15dp"
+            android:hint="真实姓名"
+            android:gravity="left|center"
+            android:textColorHint="#bbbbbb"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:background="@drawable/et_money_select_bg" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/change_btn_now_bind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_select_bg"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+        android:text="立即绑定"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

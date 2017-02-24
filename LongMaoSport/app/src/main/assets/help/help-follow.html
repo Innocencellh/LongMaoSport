@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 关注</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    关注
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <ul class="pblist aclist">
+        <li>
+            <a href="#">1.如何关注好友、取消关注？</a>
+            <div class="answer">进入对方的个人主页，点击页面下方的关注图标，即可关注好友，再次点击已关注即可取消关注。</div>
+        </li>
+        <li>
+            <a href="#">2.如何查看关注人信息？</a>
+            <div class="answer">在个人主页，点击“关注”即可查看自己的关注人信息。</div>
+        </li>
+        <li>
+            <a href="#">3.如何查看粉丝信息？</a>
+            <div class="answer">个人主页点击“粉丝”，点击想查看的对象，即可查看。</div>
+        </li> 		
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+<script type="text/javascript">
+    $(function(){
+        $(".aclist li").click(function(){
+            $(this).find("a").toggleClass("active").next(".answer").toggle().parents().siblings().find("a").removeClass("active").next(".answer").hide()
+        })
+    })
+</script>
+</body>
+</html>

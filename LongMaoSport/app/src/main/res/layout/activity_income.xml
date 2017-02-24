@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/title_color">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/money_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@mipmap/icon_fire"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#fff5a2"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/money_hb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/money_money"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:drawableLeft="@mipmap/icon_redpackets"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="可领取红包：￥0"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="兑换"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/back" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/icon_small_money" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="2000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="17dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@mipmap/icon_fire" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="200"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/icon_small_money" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="2000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="17dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@mipmap/icon_fire" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="200"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/icon_small_money" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="2000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="17dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@mipmap/icon_fire" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="200"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/icon_small_money" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="2000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="17dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@mipmap/icon_fire" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="200"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/icon_small_money" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="2000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="17dp"
+                    android:background="@mipmap/shape"
+                    android:gravity="center"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@mipmap/icon_fire" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="200"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#eeeeee"
+                android:padding="35dp">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="如遇兑换问题，点此联系客服"
+                    android:textColor="#9170B6"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

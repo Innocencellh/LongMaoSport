@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/dlg_whole"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/r2"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_alignParentBottom="true"
+        android:background="#80111111"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_bet_time"
+            android:layout_marginBottom="10dp"
+            android:text="请选择本次竞猜问题"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_bet_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_lab"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="“"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_problem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="？”"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="的正确答案："
+            android:layout_above="@+id/rl_rg"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/rl_rg"
+            android:layout_above="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="@dimen/account_f">
+
+            <RadioGroup
+                android:id="@+id/rg_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_can"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/account_h"
+                    android:button="@drawable/radiobutton"
+                    android:paddingLeft="@dimen/account_i"
+                    android:text="能"
+                    android:textColor="@color/white"/>
+
+                <RadioButton
+                    android:id="@+id/rb_no_can"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/account_j"
+                    android:layout_marginRight="@dimen/account_h"
+                    android:button="@drawable/radiobutton"
+                    android:paddingLeft="@dimen/account_i"
+                    android:text="不能"
+                    android:textColor="@color/white"/>
+            </RadioGroup>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:id="@+id/rl_money"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="充值："
+                    android:textColor="@color/light_green_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/tv_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="3dp"
+                    android:text="0"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv1" />
+                <ImageView
+                    android:id="@+id/img_money"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/icon_big_money"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tv_money"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img_money"
+                    android:src="@mipmap/icon_right_green"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_settlement"
+                android:layout_width="85dp"
+                android:layout_height="38dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/send_gift_bg"
+                android:text="结算"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/rl_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="龙猫币(个)"
+                android:textColor="#a2a2a2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_lm_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_calorie"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#5b4e62"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/rl_line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/back" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_line">
+
+            <TextView
+                android:id="@+id/tv_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textColor="#a2a2a2"
+                android:text="龙猫豆(豆)"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_lm_bean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_income"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="#5b4e62"
+                android:textSize="25sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/rl"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_select_bg"
+        android:text="充值龙猫币"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/btn_recharge"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/earnings_shape"
+        android:text="兑换龙猫豆"
+        android:textColor="#388D69"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="常见问题"
+        android:textColor="@color/gray" />
+</RelativeLayout>

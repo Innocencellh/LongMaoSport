@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rank_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_hand"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_star_bg"
+                app:civ_border_color="@color/title_color"
+                app:civ_border_width="@dimen/person_one" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="大帅哥"
+                android:textColor="#4c4c4c"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:drawableLeft="@mipmap/icon_flame_green"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="119卡路里"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/rand_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/rank_rl"
+        android:background="@color/line_color" />
+
+    <ListView
+        android:id="@+id/rank_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rand_line"
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/history_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rand_line"
+        android:src="@mipmap/history_zhanweitu"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,189 @@
+package com.live.longmao.activity.person;
+
+import android.graphics.Color;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
+import android.util.Log;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.live.longmao.R;
+import com.live.longmao.adapter.RechargeAdapter;
+import com.live.longmao.fragment.person.LMOneFragment;
+import com.live.longmao.fragment.person.LMTwoFragment;
+import com.live.longmao.fragment.person.ZBPersonFragment;
+import com.live.longmao.fragment.person.ZBPersonPhotoFragment;
+import com.live.longmao.model.BInfo;
+import com.live.longmao.model.BeanInfo;
+import com.live.longmao.model.CInfo;
+import com.live.longmao.model.CoinInfo;
+import com.live.longmao.model.MySelfInfo;
+import com.live.longmao.presenters.BeanHelper;
+import com.live.longmao.presenters.CoinHelper;
+import com.live.longmao.presenters.viewinface.BeanView;
+import com.live.longmao.presenters.viewinface.CoinView;
+import com.live.longmao.util.ChangeHeight;
+import com.live.longmao.util.ToastUtil;
+import com.live.longmao.views.customviews.BaseFragmentActivity;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by HPDN on 2016/7/9.
+ */
+public class PersonRechargeActivity extends BaseFragmentActivity implements View.OnClickListener, CoinView {
+
+    private RelativeLayout activity_base_title_rl;
+    private TextView tv_person_one, tv_person_two, tv_line1, tv_line2;
+    private ViewPager mPageVp;
+    private RechargeAdapter rechargeAdapter;
+    private List<Fragment> mFragmentList = new ArrayList<Fragment>();
+    private int currentIndex;
+    private LMOneFragment lmOneFragment;
+    private LMTwoFragment lmTwoFragment;
+    private ImageButton ivBack ;
+    private TextView lmBeanYuerTv ;
+    private CoinHelper mCoinHelper;
+    private ImageButton iv_back;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
+        setContentView(R.layout.activity_person_recharge);
+        findById();
+        init();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            ChangeHeight.changeLH(this, activity_base_title_rl);
+        }
+
+    }
+
+    private void findById() {
+        mCoinHelper = new CoinHelper(this);
+        mCoinHelper.getCoin(MySelfInfo.getInstance().getId());
+
+        ivBack = (ImageButton) findViewById(R.id.iv_back);
+        ivBack.setOnClickListener(this);
+
+        lmBeanYuerTv = (TextView) findViewById(R.id.lm_bean_yuer_tv);
+
+        activity_base_title_rl = (RelativeLayout) findViewById(R.id.activity_base_title_rl);
+        mPageVp = (ViewPager) findViewById(R.id.id_page_vp);
+        tv_person_one = (TextView) findViewById(R.id.tv_person_one);
+        tv_person_two = (TextView) findViewById(R.id.tv_person_two);
+        tv_line1 = (TextView) findViewById(R.id.tv_line1);
+        tv_line2 = (TextView) findViewById(R.id.tv_line2);
+        iv_back = (ImageButton) findViewById(R.id.iv_back);
+        tv_person_one.setOnClickListener(this);
+        tv_person_two.setOnClickListener(this);
+        iv_back.setOnClickListener(this);
+    }
+
+    private void init() {
+        lmOneFragment = new LMOneFragment();
+        lmTwoFragment = new LMTwoFragment();
+        mFragmentList.add(lmOneFragment);
+        mFragmentList.add(lmTwoFragment);
+
+        rechargeAdapter = new RechargeAdapter(
+                this.getSupportFragmentManager(), mFragmentList);
+        mPageVp.setAdapter(rechargeAdapter);
+        mPageVp.setCurrentItem(0);
+
+        mPageVp.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+
+            /**
+             * state滑动中的状态 有三种状态（0，1，2） 1：正在滑动 2：滑动完毕 0：什么都没做。
+             */
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+
+            /**
+             * position :当前页面，及你点击滑动的页面 offset:当前页面偏移的百分比
+             * offsetPixels:当前页面偏移的像素位置
+             */
+            @Override
+            public void onPageScrolled(int position, float offset,
+                                       int offsetPixels) {
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                resetTextView();
+                switch (position) {
+                    case 0:
+                        tv_person_one.setTextColor(getResources().getColor(R.color.lab_on));
+                        tv_person_two.setTextColor(getResources().getColor(R.color.lab_un));
+                        tv_line1.setVisibility(View.VISIBLE);
+                        tv_line2.setVisibility(View.INVISIBLE);
+                        break;
+                    case 1:
+                        tv_person_two.setTextColor(getResources().getColor(R.color.lab_on));
+                        tv_person_one.setTextColor(getResources().getColor(R.color.lab_un));
+                        tv_line1.setVisibility(View.INVISIBLE);
+                        tv_line2.setVisibility(View.VISIBLE);
+                        break;
+                }
+                currentIndex = position;
+            }
+        });
+
+    }
+
+
+    /**
+     * 重置颜色
+     */
+    private void resetTextView() {
+        tv_person_one.setTextColor(Color.BLACK);
+        tv_person_two.setTextColor(Color.BLACK);
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.iv_back:
+                finish();
+                break;
+            case R.id.tv_person_one:
+                mPageVp.setCurrentItem(0);
+                break;
+            case R.id.tv_person_two:
+                mPageVp.setCurrentItem(1);
+                break;
+        }
+    }
+
+
+
+    @Override
+    public void onCoinSucc(CoinInfo result) {
+        if (null != result && null != result.getBody()) {
+            List<CInfo> body = result.getBody();
+            CInfo cInfo = body.get(0);
+            lmBeanYuerTv.setText(String.valueOf(cInfo.getLmCoinNum()));
+        }else {
+            lmBeanYuerTv.setText("0");
+
+        }
+
+    }
+
+    @Override
+    public void onError(String msg) {
+        ToastUtil.showToast(this,msg);
+
+    }
+}

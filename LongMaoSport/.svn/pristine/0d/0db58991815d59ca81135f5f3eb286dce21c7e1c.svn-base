@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/dlg_whole"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/r2"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_alignParentBottom="true"
+        android:background="#80111111"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_rg"
+            android:layout_marginBottom="10dp"
+            android:text="主播能在5分钟之内做10个俯卧撑吗？"
+            android:textColor="@color/white" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_bet_time"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp">
+
+            <RadioGroup
+                android:id="@+id/rg_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_can"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radiobutton"
+                    android:paddingLeft="@dimen/account_i"
+                    android:text="能"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color51_60"
+                    android:layout_marginLeft="15dp"
+                    android:text="赔率1:1"/>
+
+                <RadioButton
+                    android:id="@+id/rb_no_can"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/account_j"
+                    android:button="@drawable/radiobutton"
+                    android:paddingLeft="@dimen/account_i"
+                    android:text="不能"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color51_60"
+                    android:layout_marginLeft="15dp"
+                    android:text="赔率1:1"/>
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bet_time"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/r1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下注："
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/et_bet_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:hint="下注数量"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:inputType="number"
+                    android:textSize="@dimen/h2"
+                    android:textColorHint="#dedede" />
+                <TextView
+                    android:id="@+id/tv_already_bet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/color51_60" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="封盘倒计时" />
+
+                <TextView
+                    android:id="@+id/tv_countdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:text="05:30" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:id="@+id/rl_money"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="充值："
+                    android:textColor="@color/light_green_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tv1"
+                    android:drawablePadding="3dp"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/img_money"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tv_money"
+                    android:background="@mipmap/icon_big_money" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img_money"
+                    android:src="@mipmap/icon_right_green" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="85dp"
+                android:layout_height="38dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/send_gift_bg"
+                android:text="确认"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

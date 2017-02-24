@@ -1,0 +1,180 @@
+package com.live.longmao.activity.person;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.live.longmao.R;
+import com.live.longmao.adapter.PersonAttentionAdapter;
+import com.live.longmao.adapter.person.NewPersonAttentionAdapter;
+import com.live.longmao.model.PersonAttentionInfo;
+import com.live.longmao.model.PersonAttentionInfoTwoList;
+import com.live.longmao.presenters.AttentionHelper;
+import com.live.longmao.presenters.FollowHelper;
+import com.live.longmao.presenters.viewinface.AttentionView;
+import com.live.longmao.presenters.viewinface.FollowView;
+import com.live.longmao.views.BaseActivity;
+import com.live.longmao.xrecyclerview.ProgressStyle;
+import com.live.longmao.xrecyclerview.XRecyclerView;
+import com.umeng.analytics.MobclickAgent;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by HPDN on 2017/1/13.
+ */
+public class NewPersonAttentionActivity extends BaseActivity implements AttentionView, FollowView {
+    private static final String TAG = "NewPersonAttentionActivity";
+    private XRecyclerView xListView;
+    private NewPersonAttentionAdapter personAttentionAdapter;
+    private AttentionHelper attentionHelper;
+    private FollowHelper followHelper;
+    private ArrayList<PersonAttentionInfoTwoList> list = new ArrayList<>();
+    private Context context;
+    private int refState = 0;//0代表下拉刷新，1代表上拉加载
+    private ImageView history_img;
+
+    /**
+     * 标志位，标志已经初始化完成
+     */
+    private boolean isPrepared;
+    /**
+     * 是否已被加载过一次，第二次就不再去请求数据了
+     */
+    private boolean mHasLoadedOnce;
+
+    //关注列表缺少字段
+    // private FollowHelper followHelper;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        attentionHelper = new AttentionHelper(this);
+        followHelper = new FollowHelper(this);
+        setView(R.layout.activity_person_attention);
+        setTitle("关注");
+        xListView = (XRecyclerView) findViewById(R.id.bean_xListView);
+        history_img = (ImageView) findViewById(R.id.history_img);
+        isPrepared = true;
+        init();
+        lazyLoad();
+    }
+
+    private void lazyLoad() {
+        if (!isPrepared || mHasLoadedOnce) {
+            return;
+        }
+        attentionHelper.getAttention();
+    }
+
+    private void init() {
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        xListView.setLayoutManager(layoutManager);
+
+        xListView.setRefreshProgressStyle(ProgressStyle.BallClipRotateMultiple);
+        xListView.setLoadingMoreProgressStyle(ProgressStyle.BallClipRotateMultiple);
+        xListView.setArrowImageView(R.drawable.default_ptr_flip);
+
+        xListView.setLoadingListener(new XRecyclerView.LoadingListener() {
+            @Override
+            public void onRefresh() {
+                refState = 0;
+                attentionHelper.getAttention();
+                //  followHelper.getFollow(MySelfInfo.getInstance().getId(), String.valueOf(CurLiveInfo.getRoomNum()));
+                // followHelper.cancelFollow(MySelfInfo.getInstance().getId(), String.valueOf(CurLiveInfo.getRoomNum()));
+            }
+
+            @Override
+            public void onLoadMore() {
+                refState = 1;
+                attentionHelper.getAttention();
+            }
+        });
+
+        personAttentionAdapter = new NewPersonAttentionAdapter(this, list, this);
+        xListView.setAdapter(personAttentionAdapter);
+    }
+
+    @Override
+    public void onAttentionSucc(PersonAttentionInfo result) {
+        mHasLoadedOnce = true;
+        if (refState == 0) {
+            if (result == null) {
+                xListView.refreshComplete();
+                return;
+            }
+            list.clear();
+            xListView.refreshComplete();
+        } else if (refState == 1) {
+            xListView.setNoMore(true);
+            return;
+            // mRecyclerView.loadMoreComplete();
+        }
+
+        if (null != result && null != result.getBody().getObjList()) {
+            List<PersonAttentionInfoTwoList> body = result.getBody().getObjList();
+            for (PersonAttentionInfoTwoList item : body) {
+                item.setAttentionsState(1);
+                list.add(item);
+            }
+            if (list.isEmpty()) {
+                history_img.setVisibility(View.VISIBLE);
+            }
+            personAttentionAdapter.notifyDataSetChanged();
+        } else {
+            history_img.setVisibility(View.VISIBLE);
+            Toast.makeText(NewPersonAttentionActivity.this, "你还没有关注的主播，快去关注你的心仪主播", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
+    @Override
+    public void onAttentionError(String msg) {
+        history_img.setVisibility(View.VISIBLE);
+        Toast.makeText(NewPersonAttentionActivity.this, msg, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onPageStart("个人中心关注界面");
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPageEnd("个人中心关注界面");
+        MobclickAgent.onPause(this);
+    }
+
+    @Override
+    public void onFollowSucc(int pos) {
+        Log.e(TAG, "onFollowSucc" + pos);
+        list.get(pos).setAttentionsState(1);
+        //在这里调用关注接口
+        //      followHelper.getFollow(MySelfInfo.getInstance().getId(), list.get(pos).getPersonAttentionInfoTwoListBean().getUserId());
+        personAttentionAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onCancelFollowSucc(int pos) {
+        Log.e(TAG, "onCancelFollowSucc" + pos);
+        list.get(pos).setAttentionsState(2);
+        //在这里调用取消关注接口
+        //   followHelper.cancelFollow(MySelfInfo.getInstance().getId(), list.get(pos).getPersonAttentionInfoTwoListBean().getUserId());
+        personAttentionAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onFollowError(String msg) {
+        Toast.makeText(NewPersonAttentionActivity.this, "你还没有关注主播", Toast.LENGTH_SHORT).show();
+    }
+}

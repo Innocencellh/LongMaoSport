@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>龙猫直播 充值兑换</title>
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="phead">
+    <a href="javascript:;" class="goback" onclick="history.go(-1)"><img src="images/back.png" width="14"></a>
+    充值与兑换
+    <a href="javascript:;" class="shareico"><img src="images/shareico.png" width="25px"></a>
+</div>
+<div class="comQues mt50">
+    <ul class="pblist aclist">
+        <li>
+            <a href="#">1.什么是龙猫币、龙猫豆、卡路里？</a>
+            <div class="answer">龙猫币：虚拟币。通用于购买直播礼物。龙猫币可以兑换龙猫豆。</br>龙猫豆：虚拟币。用于竞猜下注、兑换实体礼物。龙猫豆可以兑换龙猫币。</br>卡路里 : 虚拟币。主播在直播过程中，收到其他用户赠送的虚拟礼物，平台将其转化成“卡路里”储存在账户中。卡路里可以兑换龙猫币或收益。
+			</div>
+        </li>
+        <li>
+            <a href="#">2.如何充值龙猫币？</a>
+            <div class="answer">IOS版本APP支持APP Store 充值，1元=7个龙猫币（30%手续费由苹果商店收取）。</br>
+								Android版本APP支持支付宝、微信充值，1元=10个龙猫币。</br>
+                                具体步骤：打开龙猫直播App ->右下角点击“我的”-> 账户 ->充值龙猫币，在里面选择需要充值的金额进行充值即可。</div>
+        </li>
+        <li>
+            <a href="#">3.如何兑换龙猫豆？</a>
+            <div class="answer">1个龙猫币=10个龙猫豆</br>
+								具体步骤：打开龙猫直播App ->右下角点击“我的”-> 账户 ->”兑换龙猫币/龙猫豆“->选择“兑龙猫豆”，在里面选择需要兑换的龙猫豆数额进行兑换即可。</div>
+        </li> 
+        <li>
+            <a href="#">4.龙猫豆如何兑换龙猫币？</a>
+            <div class="answer">10个龙猫豆=1个龙猫币</br>
+								具体步骤：打开龙猫直播App ->右下角点击“我的”-> 账户 ->兑换->选择“兑龙猫币”，在里面选择需要兑换的龙猫币数额进行兑换即可。</br>
+								*龙猫豆兑换成龙猫币，需要收取少量手续费。</div>
+        </li> 
+        <li>
+            <a href="#">5.充值没有到账怎么办？</a>
+            <div class="answer">在输入密码购买龙猫币前，请仔细确认金额后再购买，错充等个人操作系统将无法退还，请务必小心操作。</div>
+        </li> 			
+    </ul>
+</div>
+<p class="copy">如有疑问，请联系龙猫在线客服。</br>微信号:longmaosports</p>
+<script type="text/javascript">
+    $(function(){
+        $(".aclist li").click(function(){
+            $(this).find("a").toggleClass("active").next(".answer").toggle().parents().siblings().find("a").removeClass("active").next(".answer").hide()
+        })
+    })
+</script>
+</body>
+</html>

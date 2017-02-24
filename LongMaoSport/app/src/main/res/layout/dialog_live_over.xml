@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/live_page_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_all_bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/live_page_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/icon_star_bg"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="@dimen/person_two" />
+
+    <LinearLayout
+        android:id="@+id/live_page_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/live_page_image"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="洪荒之力傅园慧"
+            android:textSize="@dimen/h6"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="观看人数"
+            android:textSize="@dimen/h6"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="23"
+            android:textSize="@dimen/h6"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="龙猫币"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="龙猫豆"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_bean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="88888"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="直播时长"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:01"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/live_page_ll"
+        android:padding="40dp">
+
+        <Button
+            android:id="@+id/btn_live_over"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_login_select"
+            android:text="返回首页"
+            android:textSize="@dimen/h8"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

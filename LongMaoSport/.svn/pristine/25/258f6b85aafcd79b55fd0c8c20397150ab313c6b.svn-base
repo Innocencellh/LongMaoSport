@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\all_in_anin_always.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\all_in_anin_always.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_push_out.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\dialog_push_out.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_stay.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\activity_stay.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_phone_exit.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\dialog_phone_exit.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_roadster.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\anim_roadster.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\all_in_anin.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\all_in_anin.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_xindong.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\anim_xindong.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\all_in_anin_end.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\all_in_anin_end.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\all_in_flicker_anim.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\all_in_flicker_anim.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_push_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\dialog_push_in.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\ani_live_giftnum.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\ani_live_giftnum.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\big_gift_anim.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\big_gift_anim.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_shui.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\anim_shui.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_lunzi.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\anim_lunzi.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_close.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\activity_close.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cmbkb_push_bottom_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_bottom.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_bottom.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cycleinter.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\cycleinter.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_btn.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\splash_btn.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cmbkb_push_bottom_out.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\NewLongMao\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_bg_ani.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\rotate_bg_ani.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_chuan.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\anim_chuan.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_open.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\activity_open.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_fireworks.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\src\\main\\res\\anim\\anim_fireworks.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\zuixinlongmaoAPP\\NewLongMao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_fade_out.xml"
+    }
+]

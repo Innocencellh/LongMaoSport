@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--
+    <RelativeLayout
+        android:id="@+id/toppanel1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/title_color"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/btn_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/zb_guess_set_text"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/all_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/fragment_undefined_address"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/all_text_size" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout_near"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.live.longmao.view.BottomScrollView
+            android:id="@+id/scroll_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightGreyColor"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+                    <requestFocus />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="@dimen/fragment_undefined_padding"
+                            android:text="可兑换积分 007"
+                            android:textColor="@color/btn_red"
+                            android:textSize="@dimen/all_text_size" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="@dimen/fragment_undefined_padding"
+                            android:text="兑换记录 007次"
+                            android:textColor="@color/btn_red"
+                            android:textSize="@dimen/all_text_size" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_near"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_head"
+                        android:layout_marginTop="@dimen/spacingL"
+                        android:background="@color/white">
+
+                        <View
+                            android:layout_width="@dimen/green_line_w"
+                            android:layout_height="@dimen/green_line_h"
+                            android:layout_centerVertical="true"
+                            android:background="@color/title_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="@dimen/find_text_pading"
+                            android:padding="@dimen/find_text_pading"
+                            android:text="虚拟奖品"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/find_text_size" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+                &lt;!&ndash; 这里面都是一些什么属性  &ndash;&gt;
+                <com.live.longmao.view.GridViewForScrollView
+                    android:id="@+id/live_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_head"
+                    android:layout_marginTop="@dimen/spacingL"
+                    android:divider="@null"
+                    android:fadingEdge="none"
+                    android:horizontalSpacing="@dimen/spacingGridView"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="2"
+                    android:overScrollMode="never"
+                    android:verticalSpacing="@dimen/spacingGridView" />
+
+                <LinearLayout
+                    android:id="@+id/ll_find"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/live_grid"
+                    android:background="@color/lightGreyColor"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_activity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/live_grid"
+                        android:layout_marginTop="@dimen/find_top"
+                        android:background="@color/white">
+
+                        <View
+                            android:layout_width="@dimen/green_line_w"
+                            android:layout_height="@dimen/green_line_h"
+                            android:layout_centerVertical="true"
+                            android:background="@color/title_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="@dimen/find_text_pading"
+                            android:padding="@dimen/find_text_pading"
+                            android:text="实物奖品"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/find_text_size" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <com.live.longmao.view.GridViewForScrollView
+                    android:id="@+id/find_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/ll_find"
+                    android:layout_marginTop="@dimen/spacingL"
+                    android:divider="@null"
+                    android:fadingEdge="none"
+                    android:horizontalSpacing="@dimen/spacingGridView"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="2"
+                    android:overScrollMode="never"
+                    android:verticalSpacing="@dimen/spacingGridView" />
+            </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_head"
+                    android:layout_marginTop="@dimen/spacingL"
+                    android:background="@color/white">
+
+                    <View
+                        android:layout_width="@dimen/green_line_w"
+                        android:layout_height="@dimen/green_line_h"
+                        android:layout_centerVertical="true"
+                        android:background="@color/title_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/find_text_pading"
+                        android:padding="@dimen/find_text_pading"
+                        android:text="常见问题"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/find_text_size" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/find_text_pading"
+                    android:padding="@dimen/find_text_pading"
+                    android:text="什么是积分"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/gray"
+                    android:background="@color/white"
+                    android:textSize="@dimen/find_text_size" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#111"
+                    android:alpha="0.3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/find_text_pading"
+                    android:padding="@dimen/find_text_pading"
+                    android:text="如何获取积分"
+                    android:textColor="@color/gray"
+                    android:background="@color/white"
+                    android:textSize="@dimen/find_text_size" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#111"
+                    android:alpha="0.3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/find_text_pading"
+                    android:padding="@dimen/find_text_pading"
+                    android:text="如何获取积分"
+                    android:textColor="@color/gray"
+                    android:background="@color/white"
+                    android:textSize="@dimen/find_text_size" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#111"
+                    android:alpha="0.3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/find_text_pading"
+                    android:padding="@dimen/find_text_pading"
+                    android:text="如何获取积分"
+                    android:textColor="@color/gray"
+                    android:background="@color/white"
+                    android:textSize="@dimen/find_text_size" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#111"
+                    android:alpha="0.3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/find_text_pading"
+                    android:padding="@dimen/find_text_pading"
+                    android:text="如何获取积分"
+                    android:textColor="@color/gray"
+                    android:background="@color/white"
+                    android:textSize="@dimen/find_text_size" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#111"
+                    android:alpha="0.3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/find_text_pading"
+                    android:padding="@dimen/find_text_pading"
+                    android:text="如何获取积分"
+                    android:textColor="@color/gray"
+                    android:background="@color/white"
+                    android:textSize="@dimen/find_text_size" />
+
+            </LinearLayout>
+        </com.live.longmao.view.BottomScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>-->
+
+</LinearLayout>

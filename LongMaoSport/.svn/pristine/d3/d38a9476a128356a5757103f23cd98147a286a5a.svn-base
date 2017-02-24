@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/host_bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<TextView-->
+        <!--android:id="@+id/flash_btn"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_toLeftOf="@+id/switch_cam"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@mipmap/icon_flash_n" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/switch_cam"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_toLeftOf="@+id/beauty_btn"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@mipmap/icon_switch_camera" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/beauty_btn"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@mipmap/icon_beauty_n" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_host_guss"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@mipmap/icon_live_guss"-->
+        <!--/>-->
+
+    <TextView
+        android:id="@+id/tv_host_guss"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/icon_live_guss"
+        />
+    <!--<TextView
+        android:id="@+id/tv_test_host_guss"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@mipmap/icon_live_guss"
+        />-->
+    <TextView
+        android:id="@+id/live_function"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/icon_live_up"/>
+    <!--<TextView-->
+        <!--android:id="@+id/mic_btn"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@mipmap/icon_mic_open" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/fullscreen_btn"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@mipmap/icon_fullscreen" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/send_good"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@mipmap/icon_like_n" />-->
+
+</RelativeLayout>
